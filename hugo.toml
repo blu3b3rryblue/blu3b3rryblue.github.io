@@ -45,7 +45,8 @@ enableInlineShortcodes = true
 
 [params]
   author = 'Nadia Mariyan Smith'
-  description = 'This is a solar-powered website, which means it sometimes goes offline'
+  description = 'This site is under construction'
+  # description = 'This is a solar-powered website, which means it sometimes goes offline'
 
 [menu]
   [[menu.main]]
