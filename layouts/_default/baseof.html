@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+
+	<link rel="icon" href="{{ .Site.BaseURL }}icons/sun.svg">
+
+	{{ $style := resources.Get "/css/style.scss" | css.Sass }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+	{{- partial "feeds" . -}}
+	{{- partial "opengraph" . -}}
+	
+
+</head>
+<body id="{{ .Title | urlize }}">
+	{{ partial "battery" . }}
+	{{ partial "header" . }}
+	{{ block "main" . }}{{ end }}
+	{{ partial "footer" . }}
+
+	<script src="{{ .Site.BaseURL }}js/script.js"></script>
+
+	<script>
+	const weather_ignore = ["snow", "sleet", "wind", "fog"];
+	const weather_days = ["today", "tomorrow", "day after tomorrow"];
+	let forecast = "";
+	
+	fetch("https://api.open-meteo.com/v1/forecast?latitude=43.65107&longitude=-79.347015&daily=weathercode&timezone=America%2FToronto")
+	  .then(response => response.json())
+	  .then(data => {
+		const codes = data.daily.weathercode;
+	
+		for (let i = 0; i < 3; i++) {
+		  let icon = getIconFromCode(codes[i]);
+		  let label = weather_days[i];
+		  forecast += `<span class="weather_day">${label}</span><span class="weather_icon ${icon}"></span><br>`;
+		}
+	
+		document.querySelectorAll('.forecast').forEach(el => el.innerHTML = forecast);
+	  });
+	
+	function getIconFromCode(code) {
+	  if ([0, 1].includes(code)) return "clear-day";
+	  if ([2, 3].includes(code)) return "partly-cloudy-day";
+	  if ([45, 48].includes(code)) return "cloudy";
+	  if ([51, 53, 55, 61, 63, 65].includes(code)) return "rain";
+	  return "cloudy";
+	}
+	</script>	
+
+</body>
+</html>
