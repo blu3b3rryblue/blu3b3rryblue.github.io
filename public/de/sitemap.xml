@@ -2,524 +2,524 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/de/archives/</loc>
+    <loc>//localhost:1313/de/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/archives/"
+                href="//localhost:1313/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/archives/"
+                href="//localhost:1313/fr/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:1313/nl/archives/"
+                href="//localhost:1313/nl/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/archives/"
+                href="//localhost:1313/es/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/archives/"
+                href="//localhost:1313/it/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/archives/"
+                href="//localhost:1313/pt/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/pl/archives/"
+                href="//localhost:1313/pl/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/archives/"
+                href="//localhost:1313/ar/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
-                href="http://localhost:1313/vn/archives/"
+                href="//localhost:1313/vn/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/ko/archives/"
+                href="//localhost:1313/ko/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/archives/"
+                href="//localhost:1313/de/archives/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/authors/</loc>
+    <loc>//localhost:1313/de/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/authors/"
+                href="//localhost:1313/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/authors/"
+                href="//localhost:1313/fr/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:1313/nl/authors/"
+                href="//localhost:1313/nl/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/authors/"
+                href="//localhost:1313/es/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/authors/"
+                href="//localhost:1313/it/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/authors/"
+                href="//localhost:1313/pt/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/pl/authors/"
+                href="//localhost:1313/pl/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/authors/"
+                href="//localhost:1313/ar/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
-                href="http://localhost:1313/vn/authors/"
+                href="//localhost:1313/vn/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/ko/authors/"
+                href="//localhost:1313/ko/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/authors/"
+                href="//localhost:1313/de/authors/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/categories/</loc>
+    <loc>//localhost:1313/de/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="//localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/categories/"
+                href="//localhost:1313/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:1313/nl/categories/"
+                href="//localhost:1313/nl/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/categories/"
+                href="//localhost:1313/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/categories/"
+                href="//localhost:1313/it/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/categories/"
+                href="//localhost:1313/pt/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/pl/categories/"
+                href="//localhost:1313/pl/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/categories/"
+                href="//localhost:1313/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
-                href="http://localhost:1313/vn/categories/"
+                href="//localhost:1313/vn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/ko/categories/"
+                href="//localhost:1313/ko/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/categories/"
+                href="//localhost:1313/de/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/languages/</loc>
+    <loc>//localhost:1313/de/languages/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/languages/"
+                href="//localhost:1313/languages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/languages/"
+                href="//localhost:1313/fr/languages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:1313/nl/languages/"
+                href="//localhost:1313/nl/languages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/languages/"
+                href="//localhost:1313/es/languages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/languages/"
+                href="//localhost:1313/it/languages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/languages/"
+                href="//localhost:1313/pt/languages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/pl/languages/"
+                href="//localhost:1313/pl/languages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/languages/"
+                href="//localhost:1313/ar/languages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
-                href="http://localhost:1313/vn/languages/"
+                href="//localhost:1313/vn/languages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/ko/languages/"
+                href="//localhost:1313/ko/languages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/languages/"
+                href="//localhost:1313/de/languages/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/contributors/</loc>
+    <loc>//localhost:1313/de/contributors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/contributors/"
+                href="//localhost:1313/contributors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/contributors/"
+                href="//localhost:1313/fr/contributors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:1313/nl/contributors/"
+                href="//localhost:1313/nl/contributors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/contributors/"
+                href="//localhost:1313/de/contributors/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/</loc>
+    <loc>//localhost:1313/de/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="//localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/"
+                href="//localhost:1313/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:1313/nl/"
+                href="//localhost:1313/nl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/"
+                href="//localhost:1313/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/"
+                href="//localhost:1313/it/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/"
+                href="//localhost:1313/pt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/pl/"
+                href="//localhost:1313/pl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/"
+                href="//localhost:1313/ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
-                href="http://localhost:1313/vn/"
+                href="//localhost:1313/vn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/ko/"
+                href="//localhost:1313/ko/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/"
+                href="//localhost:1313/de/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/404/</loc>
+    <loc>//localhost:1313/de/404/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/404/"
+                href="//localhost:1313/404/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/404/"
+                href="//localhost:1313/fr/404/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:1313/nl/404/"
+                href="//localhost:1313/nl/404/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/404.html"
+                href="//localhost:1313/es/404.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/404.html"
+                href="//localhost:1313/it/404.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/404.html"
+                href="//localhost:1313/pt/404.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/pl/404.html"
+                href="//localhost:1313/pl/404.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/404.html"
+                href="//localhost:1313/ar/404.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
-                href="http://localhost:1313/vn/404.html"
+                href="//localhost:1313/vn/404.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/ko/404.html"
+                href="//localhost:1313/ko/404.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/404/"
+                href="//localhost:1313/de/404/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/power/</loc>
+    <loc>//localhost:1313/de/power/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/power/"
+                href="//localhost:1313/power/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/power/"
+                href="//localhost:1313/fr/power/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:1313/nl/power/"
+                href="//localhost:1313/nl/power/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/power/"
+                href="//localhost:1313/es/power/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/power/"
+                href="//localhost:1313/it/power/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/power/"
+                href="//localhost:1313/pt/power/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/pl/power/"
+                href="//localhost:1313/pl/power/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/power/"
+                href="//localhost:1313/de/power/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/tags/</loc>
+    <loc>//localhost:1313/de/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="//localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/tags/"
+                href="//localhost:1313/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:1313/nl/tags/"
+                href="//localhost:1313/nl/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/"
+                href="//localhost:1313/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/tags/"
+                href="//localhost:1313/it/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/tags/"
+                href="//localhost:1313/pt/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/pl/tags/"
+                href="//localhost:1313/pl/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/tags/"
+                href="//localhost:1313/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
-                href="http://localhost:1313/vn/tags/"
+                href="//localhost:1313/vn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/ko/tags/"
+                href="//localhost:1313/ko/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/tags/"
+                href="//localhost:1313/de/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/translators/</loc>
+    <loc>//localhost:1313/de/translators/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/translators/"
+                href="//localhost:1313/translators/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/translators/"
+                href="//localhost:1313/fr/translators/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:1313/nl/translators/"
+                href="//localhost:1313/nl/translators/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/translators/"
+                href="//localhost:1313/es/translators/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/translators/"
+                href="//localhost:1313/it/translators/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/translators/"
+                href="//localhost:1313/pt/translators/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/pl/translators/"
+                href="//localhost:1313/pl/translators/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/translators/"
+                href="//localhost:1313/ar/translators/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
-                href="http://localhost:1313/vn/translators/"
+                href="//localhost:1313/vn/translators/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/ko/translators/"
+                href="//localhost:1313/ko/translators/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/translators/"
+                href="//localhost:1313/de/translators/"
                 />
   </url>
 </urlset>

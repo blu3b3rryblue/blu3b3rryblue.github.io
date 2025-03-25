@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nadia Mariyan Smith 한국어</title>
-    <link>http://localhost:1313/ko/categories/</link>
+    <link>//localhost:1313/ko/categories/</link>
     <description>This site is under construction</description>
     <generator>Hugo 0.145.0</generator>
-    <language>ko</language><atom:link href="http://localhost:1313/ko/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>ko</language><atom:link href="//localhost:1313/ko/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
