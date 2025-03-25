@@ -1,0 +1,15 @@
+{
+    "local_time": "15:30 EST",
+    "uptime": "5 hours, 12 minutes",
+    "W": "0.00W",
+    "A": "0.00A",
+    "V": "0.00V",
+    "temperature": "0",
+    "load_15": 0.0,
+    "charging": "no",
+    "charge": "100",
+    "today_icon": "clear-day",
+    "tomorrow_icon": "partly-cloudy-day",
+    "day_after_t_icon": "rain"
+  }
+  
