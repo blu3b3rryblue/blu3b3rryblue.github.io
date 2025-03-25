@@ -2,60 +2,105 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+<<<<<<< HEAD
     <loc>http://localhost:1313/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
                 href="http://localhost:1313/fr/"
+=======
+    <loc>//localhost:1313/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
+<<<<<<< HEAD
                 href="http://localhost:1313/de/"
+=======
+                href="//localhost:1313/de/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
+<<<<<<< HEAD
                 href="http://localhost:1313/nl/"
+=======
+                href="//localhost:1313/nl/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
+<<<<<<< HEAD
                 href="http://localhost:1313/es/"
+=======
+                href="//localhost:1313/es/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
+<<<<<<< HEAD
                 href="http://localhost:1313/it/"
+=======
+                href="//localhost:1313/it/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
+<<<<<<< HEAD
                 href="http://localhost:1313/pt/"
+=======
+                href="//localhost:1313/pt/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
+<<<<<<< HEAD
                 href="http://localhost:1313/pl/"
+=======
+                href="//localhost:1313/pl/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
+<<<<<<< HEAD
                 href="http://localhost:1313/ar/"
+=======
+                href="//localhost:1313/ar/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
+<<<<<<< HEAD
                 href="http://localhost:1313/vn/"
+=======
+                href="//localhost:1313/vn/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
+<<<<<<< HEAD
                 href="http://localhost:1313/ko/"
+=======
+                href="//localhost:1313/ko/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
                 href="http://localhost:1313/"
                 />
   </url><url>
@@ -66,55 +111,104 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://localhost:1313/fr/archives/"
+=======
+                href="//localhost:1313/"
+                />
+  </url><url>
+    <loc>//localhost:1313/about/</loc>
+  </url><url>
+    <loc>//localhost:1313/archives/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/archives/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
+<<<<<<< HEAD
                 href="http://localhost:1313/de/archives/"
+=======
+                href="//localhost:1313/de/archives/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
+<<<<<<< HEAD
                 href="http://localhost:1313/nl/archives/"
+=======
+                href="//localhost:1313/nl/archives/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
+<<<<<<< HEAD
                 href="http://localhost:1313/es/archives/"
+=======
+                href="//localhost:1313/es/archives/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
+<<<<<<< HEAD
                 href="http://localhost:1313/it/archives/"
+=======
+                href="//localhost:1313/it/archives/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
+<<<<<<< HEAD
                 href="http://localhost:1313/pt/archives/"
+=======
+                href="//localhost:1313/pt/archives/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
+<<<<<<< HEAD
                 href="http://localhost:1313/pl/archives/"
+=======
+                href="//localhost:1313/pl/archives/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
+<<<<<<< HEAD
                 href="http://localhost:1313/ar/archives/"
+=======
+                href="//localhost:1313/ar/archives/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
+<<<<<<< HEAD
                 href="http://localhost:1313/vn/archives/"
+=======
+                href="//localhost:1313/vn/archives/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
+<<<<<<< HEAD
                 href="http://localhost:1313/ko/archives/"
+=======
+                href="//localhost:1313/ko/archives/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
                 href="http://localhost:1313/archives/"
                 />
   </url><url>
@@ -127,55 +221,106 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://localhost:1313/fr/authors/"
+=======
+                href="//localhost:1313/archives/"
+                />
+  </url><url>
+    <loc>//localhost:1313/design/ao-website-design/</loc>
+  </url><url>
+    <loc>//localhost:1313/article-template-how-to/</loc>
+  </url><url>
+    <loc>//localhost:1313/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/authors/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
+<<<<<<< HEAD
                 href="http://localhost:1313/de/authors/"
+=======
+                href="//localhost:1313/de/authors/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
+<<<<<<< HEAD
                 href="http://localhost:1313/nl/authors/"
+=======
+                href="//localhost:1313/nl/authors/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
+<<<<<<< HEAD
                 href="http://localhost:1313/es/authors/"
+=======
+                href="//localhost:1313/es/authors/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
+<<<<<<< HEAD
                 href="http://localhost:1313/it/authors/"
+=======
+                href="//localhost:1313/it/authors/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
+<<<<<<< HEAD
                 href="http://localhost:1313/pt/authors/"
+=======
+                href="//localhost:1313/pt/authors/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
+<<<<<<< HEAD
                 href="http://localhost:1313/pl/authors/"
+=======
+                href="//localhost:1313/pl/authors/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
+<<<<<<< HEAD
                 href="http://localhost:1313/ar/authors/"
+=======
+                href="//localhost:1313/ar/authors/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
+<<<<<<< HEAD
                 href="http://localhost:1313/vn/authors/"
+=======
+                href="//localhost:1313/vn/authors/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
+<<<<<<< HEAD
                 href="http://localhost:1313/ko/authors/"
+=======
+                href="//localhost:1313/ko/authors/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
                 href="http://localhost:1313/authors/"
                 />
   </url><url>
@@ -186,55 +331,104 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://localhost:1313/fr/categories/"
+=======
+                href="//localhost:1313/authors/"
+                />
+  </url><url>
+    <loc>//localhost:1313/photography/bodies-of-water/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/categories/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
+<<<<<<< HEAD
                 href="http://localhost:1313/de/categories/"
+=======
+                href="//localhost:1313/de/categories/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
+<<<<<<< HEAD
                 href="http://localhost:1313/nl/categories/"
+=======
+                href="//localhost:1313/nl/categories/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
+<<<<<<< HEAD
                 href="http://localhost:1313/es/categories/"
+=======
+                href="//localhost:1313/es/categories/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
+<<<<<<< HEAD
                 href="http://localhost:1313/it/categories/"
+=======
+                href="//localhost:1313/it/categories/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
+<<<<<<< HEAD
                 href="http://localhost:1313/pt/categories/"
+=======
+                href="//localhost:1313/pt/categories/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
+<<<<<<< HEAD
                 href="http://localhost:1313/pl/categories/"
+=======
+                href="//localhost:1313/pl/categories/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
+<<<<<<< HEAD
                 href="http://localhost:1313/ar/categories/"
+=======
+                href="//localhost:1313/ar/categories/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
+<<<<<<< HEAD
                 href="http://localhost:1313/vn/categories/"
+=======
+                href="//localhost:1313/vn/categories/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
+<<<<<<< HEAD
                 href="http://localhost:1313/ko/categories/"
+=======
+                href="//localhost:1313/ko/categories/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
@@ -243,20 +437,39 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://localhost:1313/fr/contributors/"
+=======
+                href="//localhost:1313/categories/"
+                />
+  </url><url>
+    <loc>//localhost:1313/contributors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/contributors/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
+<<<<<<< HEAD
                 href="http://localhost:1313/de/contributors/"
+=======
+                href="//localhost:1313/de/contributors/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
+<<<<<<< HEAD
                 href="http://localhost:1313/nl/contributors/"
+=======
+                href="//localhost:1313/nl/contributors/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
                 href="http://localhost:1313/contributors/"
                 />
   </url><url>
@@ -279,55 +492,116 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://localhost:1313/fr/languages/"
+=======
+                href="//localhost:1313/contributors/"
+                />
+  </url><url>
+    <loc>//localhost:1313/design/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/existing-digitally/</loc>
+  </url><url>
+    <loc>//localhost:1313/feeds/</loc>
+  </url><url>
+    <loc>//localhost:1313/design/gteccc-website-design/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/ill-remember-you/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/in-parallel/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/in-the-garden/</loc>
+  </url><url>
+    <loc>//localhost:1313/languages/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/languages/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
+<<<<<<< HEAD
                 href="http://localhost:1313/de/languages/"
+=======
+                href="//localhost:1313/de/languages/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
+<<<<<<< HEAD
                 href="http://localhost:1313/nl/languages/"
+=======
+                href="//localhost:1313/nl/languages/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
+<<<<<<< HEAD
                 href="http://localhost:1313/es/languages/"
+=======
+                href="//localhost:1313/es/languages/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
+<<<<<<< HEAD
                 href="http://localhost:1313/it/languages/"
+=======
+                href="//localhost:1313/it/languages/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
+<<<<<<< HEAD
                 href="http://localhost:1313/pt/languages/"
+=======
+                href="//localhost:1313/pt/languages/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
+<<<<<<< HEAD
                 href="http://localhost:1313/pl/languages/"
+=======
+                href="//localhost:1313/pl/languages/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
+<<<<<<< HEAD
                 href="http://localhost:1313/ar/languages/"
+=======
+                href="//localhost:1313/ar/languages/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
+<<<<<<< HEAD
                 href="http://localhost:1313/vn/languages/"
+=======
+                href="//localhost:1313/vn/languages/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
+<<<<<<< HEAD
                 href="http://localhost:1313/ko/languages/"
+=======
+                href="//localhost:1313/ko/languages/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
                 href="http://localhost:1313/languages/"
                 />
   </url><url>
@@ -338,55 +612,104 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://localhost:1313/fr/404/"
+=======
+                href="//localhost:1313/languages/"
+                />
+  </url><url>
+    <loc>//localhost:1313/authors/marie-verdeil/</loc>
+  </url><url>
+    <loc>//localhost:1313/404/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/404/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
+<<<<<<< HEAD
                 href="http://localhost:1313/de/404/"
+=======
+                href="//localhost:1313/de/404/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
+<<<<<<< HEAD
                 href="http://localhost:1313/nl/404/"
+=======
+                href="//localhost:1313/nl/404/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
+<<<<<<< HEAD
                 href="http://localhost:1313/es/404.html"
+=======
+                href="//localhost:1313/es/404.html"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
+<<<<<<< HEAD
                 href="http://localhost:1313/it/404.html"
+=======
+                href="//localhost:1313/it/404.html"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
+<<<<<<< HEAD
                 href="http://localhost:1313/pt/404.html"
+=======
+                href="//localhost:1313/pt/404.html"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
+<<<<<<< HEAD
                 href="http://localhost:1313/pl/404.html"
+=======
+                href="//localhost:1313/pl/404.html"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
+<<<<<<< HEAD
                 href="http://localhost:1313/ar/404.html"
+=======
+                href="//localhost:1313/ar/404.html"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
+<<<<<<< HEAD
                 href="http://localhost:1313/vn/404.html"
+=======
+                href="//localhost:1313/vn/404.html"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
+<<<<<<< HEAD
                 href="http://localhost:1313/ko/404.html"
+=======
+                href="//localhost:1313/ko/404.html"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
                 href="http://localhost:1313/404/"
                 />
   </url><url>
@@ -401,40 +724,81 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://localhost:1313/fr/power/"
+=======
+                href="//localhost:1313/404/"
+                />
+  </url><url>
+    <loc>//localhost:1313/photography/one-months-waste/</loc>
+  </url><url>
+    <loc>//localhost:1313/design/ops-designer-experience/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/</loc>
+  </url><url>
+    <loc>//localhost:1313/power/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/power/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
+<<<<<<< HEAD
                 href="http://localhost:1313/de/power/"
+=======
+                href="//localhost:1313/de/power/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
+<<<<<<< HEAD
                 href="http://localhost:1313/nl/power/"
+=======
+                href="//localhost:1313/nl/power/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
+<<<<<<< HEAD
                 href="http://localhost:1313/es/power/"
+=======
+                href="//localhost:1313/es/power/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
+<<<<<<< HEAD
                 href="http://localhost:1313/it/power/"
+=======
+                href="//localhost:1313/it/power/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
+<<<<<<< HEAD
                 href="http://localhost:1313/pt/power/"
+=======
+                href="//localhost:1313/pt/power/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
+<<<<<<< HEAD
                 href="http://localhost:1313/pl/power/"
+=======
+                href="//localhost:1313/pl/power/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
                 href="http://localhost:1313/power/"
                 />
   </url><url>
@@ -453,55 +817,112 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://localhost:1313/fr/tags/"
+=======
+                href="//localhost:1313/power/"
+                />
+  </url><url>
+    <loc>//localhost:1313/privacy/</loc>
+  </url><url>
+    <loc>//localhost:1313/design/panb-records-retrieval/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/psithurisms/</loc>
+  </url><url>
+    <loc>//localhost:1313/publications/</loc>
+  </url><url>
+    <loc>//localhost:1313/design/ops-feedback-component/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/tags/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
+<<<<<<< HEAD
                 href="http://localhost:1313/de/tags/"
+=======
+                href="//localhost:1313/de/tags/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
+<<<<<<< HEAD
                 href="http://localhost:1313/nl/tags/"
+=======
+                href="//localhost:1313/nl/tags/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
+<<<<<<< HEAD
                 href="http://localhost:1313/es/tags/"
+=======
+                href="//localhost:1313/es/tags/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
+<<<<<<< HEAD
                 href="http://localhost:1313/it/tags/"
+=======
+                href="//localhost:1313/it/tags/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
+<<<<<<< HEAD
                 href="http://localhost:1313/pt/tags/"
+=======
+                href="//localhost:1313/pt/tags/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
+<<<<<<< HEAD
                 href="http://localhost:1313/pl/tags/"
+=======
+                href="//localhost:1313/pl/tags/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
+<<<<<<< HEAD
                 href="http://localhost:1313/ar/tags/"
+=======
+                href="//localhost:1313/ar/tags/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
+<<<<<<< HEAD
                 href="http://localhost:1313/vn/tags/"
+=======
+                href="//localhost:1313/vn/tags/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
+<<<<<<< HEAD
                 href="http://localhost:1313/ko/tags/"
+=======
+                href="//localhost:1313/ko/tags/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
                 href="http://localhost:1313/tags/"
                 />
   </url><url>
@@ -514,58 +935,115 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://localhost:1313/fr/translators/"
+=======
+                href="//localhost:1313/tags/"
+                />
+  </url><url>
+    <loc>//localhost:1313/photography/the-saturated-zone/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/to-see-the-earth-before-the-end-of-the-world/</loc>
+  </url><url>
+    <loc>//localhost:1313/translators/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/translators/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
+<<<<<<< HEAD
                 href="http://localhost:1313/de/translators/"
+=======
+                href="//localhost:1313/de/translators/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
+<<<<<<< HEAD
                 href="http://localhost:1313/nl/translators/"
+=======
+                href="//localhost:1313/nl/translators/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
+<<<<<<< HEAD
                 href="http://localhost:1313/es/translators/"
+=======
+                href="//localhost:1313/es/translators/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
+<<<<<<< HEAD
                 href="http://localhost:1313/it/translators/"
+=======
+                href="//localhost:1313/it/translators/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
+<<<<<<< HEAD
                 href="http://localhost:1313/pt/translators/"
+=======
+                href="//localhost:1313/pt/translators/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
+<<<<<<< HEAD
                 href="http://localhost:1313/pl/translators/"
+=======
+                href="//localhost:1313/pl/translators/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
+<<<<<<< HEAD
                 href="http://localhost:1313/ar/translators/"
+=======
+                href="//localhost:1313/ar/translators/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
+<<<<<<< HEAD
                 href="http://localhost:1313/vn/translators/"
+=======
+                href="//localhost:1313/vn/translators/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
+<<<<<<< HEAD
                 href="http://localhost:1313/ko/translators/"
+=======
+                href="//localhost:1313/ko/translators/"
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
                 href="http://localhost:1313/translators/"
                 />
   </url><url>
     <loc>http://localhost:1313/design/u-of-t-image-services/</loc>
+=======
+                href="//localhost:1313/translators/"
+                />
+  </url><url>
+    <loc>//localhost:1313/design/u-of-t-image-services/</loc>
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
   </url>
 </urlset>
