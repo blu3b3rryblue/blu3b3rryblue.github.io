@@ -2,63 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/de/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="//localhost:1313/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="//localhost:1313/nl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="//localhost:1313/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="//localhost:1313/it/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="//localhost:1313/pt/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="//localhost:1313/pl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="//localhost:1313/ar/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vn"
-                href="//localhost:1313/vn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="//localhost:1313/ko/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="//localhost:1313/de/"
-                />
-  </url><url>
     <loc>//localhost:1313/de/archives/</loc>
     <xhtml:link
                 rel="alternate"
@@ -307,6 +250,63 @@
                 rel="alternate"
                 hreflang="de"
                 href="//localhost:1313/de/contributors/"
+                />
+  </url><url>
+    <loc>//localhost:1313/de/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="//localhost:1313/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="//localhost:1313/nl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="//localhost:1313/it/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="//localhost:1313/pt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="//localhost:1313/pl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="//localhost:1313/ar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="//localhost:1313/vn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="//localhost:1313/ko/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="//localhost:1313/de/"
                 />
   </url><url>
     <loc>//localhost:1313/de/404/</loc>
