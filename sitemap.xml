@@ -2,57 +2,101 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
+<<<<<<< HEAD
     <loc>http://localhost:1313/en/sitemap.xml</loc>
+=======
+    <loc>//localhost:1313/en/sitemap.xml</loc>
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
     
   </sitemap>
   
   <sitemap>
+<<<<<<< HEAD
     <loc>http://localhost:1313/fr/sitemap.xml</loc>
+=======
+    <loc>//localhost:1313/fr/sitemap.xml</loc>
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
     
   </sitemap>
   
   <sitemap>
+<<<<<<< HEAD
     <loc>http://localhost:1313/de/sitemap.xml</loc>
+=======
+    <loc>//localhost:1313/de/sitemap.xml</loc>
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
     
   </sitemap>
   
   <sitemap>
+<<<<<<< HEAD
     <loc>http://localhost:1313/nl/sitemap.xml</loc>
+=======
+    <loc>//localhost:1313/nl/sitemap.xml</loc>
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
     
   </sitemap>
   
   <sitemap>
+<<<<<<< HEAD
     <loc>http://localhost:1313/es/sitemap.xml</loc>
+=======
+    <loc>//localhost:1313/es/sitemap.xml</loc>
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
     
   </sitemap>
   
   <sitemap>
+<<<<<<< HEAD
     <loc>http://localhost:1313/it/sitemap.xml</loc>
+=======
+    <loc>//localhost:1313/it/sitemap.xml</loc>
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
     
   </sitemap>
   
   <sitemap>
+<<<<<<< HEAD
     <loc>http://localhost:1313/pt/sitemap.xml</loc>
+=======
+    <loc>//localhost:1313/pt/sitemap.xml</loc>
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
     
   </sitemap>
   
   <sitemap>
+<<<<<<< HEAD
     <loc>http://localhost:1313/pl/sitemap.xml</loc>
+=======
+    <loc>//localhost:1313/pl/sitemap.xml</loc>
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
     
   </sitemap>
   
   <sitemap>
+<<<<<<< HEAD
     <loc>http://localhost:1313/ar/sitemap.xml</loc>
+=======
+    <loc>//localhost:1313/ar/sitemap.xml</loc>
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
     
   </sitemap>
   
   <sitemap>
+<<<<<<< HEAD
     <loc>http://localhost:1313/vn/sitemap.xml</loc>
+=======
+    <loc>//localhost:1313/vn/sitemap.xml</loc>
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
     
   </sitemap>
   
   <sitemap>
+<<<<<<< HEAD
     <loc>http://localhost:1313/ko/sitemap.xml</loc>
+=======
+    <loc>//localhost:1313/ko/sitemap.xml</loc>
+>>>>>>> 359678c741c9803deb55549c8a18455dffc2daa9
     
   </sitemap>
   
