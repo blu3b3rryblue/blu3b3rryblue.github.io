@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://nadiamariyan.ca/'
 languageCode = 'en-us'
 title = 'Nadia Mariyan Smith'
 
@@ -45,7 +45,8 @@ enableInlineShortcodes = true
 
 [params]
   author = 'Nadia Mariyan Smith'
-  description = 'This is a solar-powered website, which means it sometimes goes offline'
+  description = 'This site is under construction'
+  # description = 'This is a solar-powered website, which means it sometimes goes offline'
 
 [menu]
   [[menu.main]]

@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nadia Mariyan Smith Tiếng Việt</title>
-    <link>//localhost:1313/vn/languages/</link>
-    <description>This is a solar-powered website, which means it sometimes goes offline</description>
+    <link>http://localhost:1313/vn/languages/</link>
+    <description>This site is under construction</description>
     <generator>Hugo 0.145.0</generator>
-    <language>vn</language><atom:link href="//localhost:1313/vn/languages/index.xml" rel="self" type="application/rss+xml" />
+    <language>vn</language><atom:link href="http://localhost:1313/vn/languages/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
