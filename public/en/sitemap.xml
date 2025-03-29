@@ -444,8 +444,6 @@
   </url><url>
     <loc>//localhost:1313/photography/psithurisms/</loc>
   </url><url>
-    <loc>//localhost:1313/publications/</loc>
-  </url><url>
     <loc>//localhost:1313/design/ops-feedback-component/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
@@ -567,5 +565,7 @@
                 />
   </url><url>
     <loc>//localhost:1313/design/u-of-t-image-services/</loc>
+  </url><url>
+    <loc>//localhost:1313/writing/</loc>
   </url>
 </urlset>

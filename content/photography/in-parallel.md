@@ -1,4 +1,4 @@
 ---
 title: "in parallel"
-image: "in-parallel_B&W.jpg"
+image: "/images/in-parallel_B&W.jpg"
 ---

@@ -1,4 +1,4 @@
 ---
 title: "bodies of land, bodies of water"
-image: "bodies-of-land.jpeg"
+image: "/images/bodies-of-land.jpeg"
 ---

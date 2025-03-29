@@ -65,9 +65,9 @@ enableInlineShortcodes = true
     url = '/design/'
     weight = 3
   [[menu.main]]
-    identifier = 'publications'
-    name = 'Publications'
-    url = '/publications/'
+    identifier = 'writing'
+    name = 'Writing'
+    url = '/writing/'
     weight = 4
   
 
