@@ -11,7 +11,7 @@ I also make photographs.
 
 
 [Design Resume](/pdfs/design_resume.pdf)  
-[Artist CV](/pdfs/Artist CV - Nadia Mariyan Smith.pdf)
+[Artist CV](/pdfs/ArtistCV-NadiaMariyanSmith.pdf)
 
 
 > *“We are committed to the idea that study is what you do with other people. It’s talking and walking around with other people, working, dancing, suffering, some irreducible convergence of all three, held under the name of speculative practice. The point of calling it ‘study’ is to mark that the incessant and irreversible intellectuality of these activities is already present.”*
