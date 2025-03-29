@@ -6,7 +6,9 @@
 		<section id="content" class="article">
 			<header class="entry-header">
 				<h1 class="entry-title">{{ .Title }}</h1>
-				<p class="summary">{{ .Params.description | default .Summary }}</p>
+				{{ if or (eq .Title "Power") (eq .Title "Privacy Policy") }}
+   				 <p class="summary">{{ .Params.description | default .Summary }}</p>
+				{{ end }}
 				
 				{{ if .Params.image }}
 				<div class="featured-image">
