@@ -1,4 +1,4 @@
 ---
 title: "the saturated zone"
-image: "saturated-zone.jpg"
+image: "/images/saturated-zone.jpg"
 --- 

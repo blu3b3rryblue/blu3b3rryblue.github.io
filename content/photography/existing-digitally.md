@@ -1,4 +1,4 @@
 ---
 title: "existing digitally"
-image: "existing-digitally.jpg"
+image: "/images/existing-digitally.jpg"
 ---

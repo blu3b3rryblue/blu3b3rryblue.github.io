@@ -1,4 +1,4 @@
 ---
 title: "one month's waste"
-image: "one-month-waste.jpg"
+image: "/images/one-month-waste.jpg"
 ---
