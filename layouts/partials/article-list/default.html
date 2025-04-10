@@ -4,7 +4,7 @@
             <div class="featured-img" style="background-image: url('{{ . }}');"></div>
         {{ end }}
         <h3 class="entry-title">{{ .Title }}</h3>
-        <p class="index-summary">{{ .Summary }}</p>
+        <p class="index-summary">{{ (.Summary | truncate 100) }}</p>
     </a>
 </div>
 

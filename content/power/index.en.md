@@ -1,7 +1,7 @@
 ---
 title: "Power"
 date: ""
-summary: "This website runs on a [solar powered server](/about/the-solar-website) located in Toronto, and will go off-line during longer periods of bad weather. This page shows live data relating to power supply, power demand, and energy storage."
+summary: "We are working on having this website run on a solar powered server located in Toronto, which will go off-line during longer periods of bad weather. This page will show live data relating to power supply, power demand, and energy storage."
 slug: "power"
 lang: "en"
 authors: [""]
@@ -38,6 +38,6 @@ When the voltage of the battery drops below 12V, and the whole page is coloured 
 
 Showing a "correct" representation of the storage capacity requires calibration and algorithms in relation to a specific battery. This is troublesome, because we [keep experimenting with different sizes of batteries and solar panels]({{< ref "/posts/how-sustainable-is-a-solar-powered-website" >}}) to find the optimal balance between uptime and sustainability. Furthermore, the naked data are more informative for people who understand how a solar PV system works. For example, the battery meter also reveals the state and age of the battery.
 
-Since 12 January 2020, the website runs on a 30W solar panel and a (new) 168 Wh lead-acid battery. From September 2018 to January 2020, the website was powered by a 50W solar panel and an (old) 86 Wh battery. 
+<!-- Since 12 January 2020, the website runs on a 30W solar panel and a (new) 168 Wh lead-acid battery. From September 2018 to January 2020, the website was powered by a 50W solar panel and an (old) 86 Wh battery. --> 
 
 {{% figure src="solar-powered-server-weather-2.png" %}} The accessibility of this website depends on the weather in Toronto, Canada. {{% /figure %}}
