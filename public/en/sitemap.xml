@@ -61,63 +61,6 @@
   </url><url>
     <loc>//localhost:1313/about/</loc>
   </url><url>
-    <loc>//localhost:1313/archives/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="//localhost:1313/fr/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="//localhost:1313/de/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="//localhost:1313/nl/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="//localhost:1313/es/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="//localhost:1313/it/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="//localhost:1313/pt/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="//localhost:1313/pl/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="//localhost:1313/ar/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vn"
-                href="//localhost:1313/vn/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="//localhost:1313/ko/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/archives/"
-                />
-  </url><url>
     <loc>//localhost:1313/design/ao-website-design/</loc>
   </url><url>
     <loc>//localhost:1313/article-template-how-to/</loc>
@@ -238,28 +181,6 @@
                 href="//localhost:1313/categories/"
                 />
   </url><url>
-    <loc>//localhost:1313/contributors/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="//localhost:1313/fr/contributors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="//localhost:1313/de/contributors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="//localhost:1313/nl/contributors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/contributors/"
-                />
-  </url><url>
     <loc>//localhost:1313/design/</loc>
   </url><url>
     <loc>//localhost:1313/photography/existing-digitally/</loc>
@@ -268,7 +189,7 @@
   </url><url>
     <loc>//localhost:1313/design/gteccc-website-design/</loc>
   </url><url>
-    <loc>//localhost:1313/photography/ill-remember-you/</loc>
+    <loc>//localhost:1313/photography/1-ill-remember-you/</loc>
   </url><url>
     <loc>//localhost:1313/photography/in-parallel/</loc>
   </url><url>
@@ -337,17 +258,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="//localhost:1313/fr/404/"
+                href="//localhost:1313/fr/404.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="//localhost:1313/de/404/"
+                href="//localhost:1313/de/404.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="//localhost:1313/nl/404/"
+                href="//localhost:1313/nl/404.html"
                 />
     <xhtml:link
                 rel="alternate"
@@ -397,46 +318,6 @@
     <loc>//localhost:1313/photography/</loc>
   </url><url>
     <loc>//localhost:1313/power/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="//localhost:1313/fr/power/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="//localhost:1313/de/power/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="//localhost:1313/nl/power/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="//localhost:1313/es/power/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="//localhost:1313/it/power/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="//localhost:1313/pt/power/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="//localhost:1313/pl/power/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/power/"
-                />
   </url><url>
     <loc>//localhost:1313/privacy/</loc>
   </url><url>
