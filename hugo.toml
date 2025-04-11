@@ -51,61 +51,24 @@ enableInlineShortcodes = true
 [menu]
   [[menu.main]]
     identifier = 'about'
-    name = 'About'
+    name = 'About '
     url = '/about/'
     weight = 1
   [[menu.main]]
     identifier = 'photography'
-    name = 'Photography'
+    name = 'Photography '
     url = '/photography/'
     weight = 2
   [[menu.main]]
     identifier = 'design'
-    name = 'Design'
+    name = 'Design '
     url = '/design/'
     weight = 3
   [[menu.main]]
     identifier = 'writing'
-    name = 'Writing'
+    name = 'Writing '
     url = '/writing/'
     weight = 4
-  
-
-[languages]
-  [languages.en]
-    languageName = 'English'
-    weight = 1
-  [languages.fr]
-    languageName = 'Français'
-    weight = 2
-  [languages.de]
-    languageName = 'Deutsch'
-    weight = 3
-  [languages.nl]
-    languageName = 'Nederlands'
-    weight = 4
-  [languages.es]
-    languageName = 'Español'
-    weight = 5
-  [languages.it]
-    languageName = 'Italiano'
-    weight = 6
-  [languages.pt]
-    languageName = 'Português'
-    weight = 7
-  [languages.pl]
-    languageName = 'Polski'
-    weight = 8
-  [languages.ar]
-    languageName = 'العربية'
-    languagedirection = 'rtl'
-    weight = 9
-  [languages.vn]
-    languageName = 'Tiếng Việt'
-    weight = 10
-  [languages.ko]
-    languageName = '한국어'
-    weight = 11
 
 [taxonomies]
   author = 'authors'

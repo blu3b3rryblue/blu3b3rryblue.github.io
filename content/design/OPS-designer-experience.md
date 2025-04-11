@@ -1,6 +1,5 @@
 ---
-title: "Ontario Public Service Designer Experience"
-image: "/images/resonances.jpg"
+title: "Ontario Public Service: Designer Experience Research"
+image: "/images/designer-experience.jpg"
 ---
 
-A beautiful resonant image description.

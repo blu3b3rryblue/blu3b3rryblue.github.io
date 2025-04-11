@@ -1,6 +1,5 @@
 ---
-title: "Service Ontario Feedback Component"
-image: "/images/resonances.jpg"
+title: "Service Ontario: Feedback Component"
+image: "/images/serviceontario.jpg"
 ---
 
-A beautiful resonant image description.

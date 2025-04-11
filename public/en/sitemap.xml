@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/design/gteccc-website-design/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/ill-remember-you/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/in-parallel/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/to-see-the-earth-before-the-end-of-the-world/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/bodies-of-water/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/psithurisms/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/the-saturated-zone/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/in-the-garden/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/one-months-waste/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/existing-digitally/</loc>
+  </url><url>
     <loc>//localhost:1313/</loc>
     <xhtml:link
                 rel="alternate"
@@ -122,8 +142,6 @@
                 href="//localhost:1313/authors/"
                 />
   </url><url>
-    <loc>//localhost:1313/photography/bodies-of-water/</loc>
-  </url><url>
     <loc>//localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -183,17 +201,7 @@
   </url><url>
     <loc>//localhost:1313/design/</loc>
   </url><url>
-    <loc>//localhost:1313/photography/existing-digitally/</loc>
-  </url><url>
     <loc>//localhost:1313/feeds/</loc>
-  </url><url>
-    <loc>//localhost:1313/design/gteccc-website-design/</loc>
-  </url><url>
-    <loc>//localhost:1313/photography/1-ill-remember-you/</loc>
-  </url><url>
-    <loc>//localhost:1313/photography/in-parallel/</loc>
-  </url><url>
-    <loc>//localhost:1313/photography/in-the-garden/</loc>
   </url><url>
     <loc>//localhost:1313/languages/</loc>
     <xhtml:link
@@ -311,8 +319,6 @@
                 href="//localhost:1313/404/"
                 />
   </url><url>
-    <loc>//localhost:1313/photography/one-months-waste/</loc>
-  </url><url>
     <loc>//localhost:1313/design/ops-designer-experience/</loc>
   </url><url>
     <loc>//localhost:1313/photography/</loc>
@@ -322,8 +328,6 @@
     <loc>//localhost:1313/privacy/</loc>
   </url><url>
     <loc>//localhost:1313/design/panb-records-retrieval/</loc>
-  </url><url>
-    <loc>//localhost:1313/photography/psithurisms/</loc>
   </url><url>
     <loc>//localhost:1313/design/ops-feedback-component/</loc>
   </url><url>
@@ -383,10 +387,6 @@
                 hreflang="en"
                 href="//localhost:1313/tags/"
                 />
-  </url><url>
-    <loc>//localhost:1313/photography/the-saturated-zone/</loc>
-  </url><url>
-    <loc>//localhost:1313/photography/to-see-the-earth-before-the-end-of-the-world/</loc>
   </url><url>
     <loc>//localhost:1313/translators/</loc>
     <xhtml:link
