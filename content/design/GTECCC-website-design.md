@@ -1,6 +1,6 @@
 ---
 title: "Greater Toronto Eritrean Community Centre: Website Design"
-Weight: 1
+weight: 1
 image: "/images/GTECCC-world-cafe.jpg"
 ---
 

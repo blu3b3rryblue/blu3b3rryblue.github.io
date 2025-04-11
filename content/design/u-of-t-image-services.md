@@ -1,5 +1,6 @@
 ---
 title: "University of Toronto: Image Services Guide Design"
+weight: 4
 image: "/images/image-services.jpg"
 ---
 

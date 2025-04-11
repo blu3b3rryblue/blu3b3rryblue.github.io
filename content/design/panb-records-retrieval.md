@@ -1,5 +1,6 @@
 ---
 title: "Provincial Archives of New Brunswick: Records Retrieval Design"
+weight: 3
 image: "/images/archives-NewBrunswick-repository.jpg"
 ---
 
