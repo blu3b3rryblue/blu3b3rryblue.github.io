@@ -1,59 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>//localhost:1313/en/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>//localhost:1313/fr/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>//localhost:1313/de/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>//localhost:1313/nl/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>//localhost:1313/es/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>//localhost:1313/it/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>//localhost:1313/pt/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>//localhost:1313/pl/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>//localhost:1313/ar/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>//localhost:1313/vn/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>//localhost:1313/ko/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>//localhost:1313/design/gteccc-website-design/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/ill-remember-you/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/in-parallel/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/to-see-the-earth-before-the-end-of-the-world/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/bodies-of-water/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/psithurisms/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/the-saturated-zone/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/in-the-garden/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/one-months-waste/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/existing-digitally/</loc>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+  </url><url>
+    <loc>//localhost:1313/about/</loc>
+  </url><url>
+    <loc>//localhost:1313/design/ao-website-design/</loc>
+  </url><url>
+    <loc>//localhost:1313/article-template-how-to/</loc>
+  </url><url>
+    <loc>//localhost:1313/authors/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+  </url><url>
+    <loc>//localhost:1313/design/</loc>
+  </url><url>
+    <loc>//localhost:1313/feeds/</loc>
+  </url><url>
+    <loc>//localhost:1313/languages/</loc>
+  </url><url>
+    <loc>//localhost:1313/authors/marie-verdeil/</loc>
+  </url><url>
+    <loc>//localhost:1313/404/</loc>
+  </url><url>
+    <loc>//localhost:1313/design/ops-designer-experience/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/</loc>
+  </url><url>
+    <loc>//localhost:1313/power/</loc>
+  </url><url>
+    <loc>//localhost:1313/privacy/</loc>
+  </url><url>
+    <loc>//localhost:1313/design/panb-records-retrieval/</loc>
+  </url><url>
+    <loc>//localhost:1313/design/ops-feedback-component/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+  </url><url>
+    <loc>//localhost:1313/translators/</loc>
+  </url><url>
+    <loc>//localhost:1313/design/u-of-t-image-services/</loc>
+  </url><url>
+    <loc>//localhost:1313/writing/</loc>
+  </url>
+</urlset>

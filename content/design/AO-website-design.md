@@ -1,6 +1,6 @@
 ---
-title: "Archives of Ontario Website Design"
-image: "/images/resonances.jpg"
+title: "Archives of Ontario: Website Design"
+weight: 2
+image: "/images/archives-Ontario-website.jpg"
 ---
 
-A beautiful resonant image description.
