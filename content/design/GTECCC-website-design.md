@@ -1,7 +1,7 @@
 ---
 title: "Greater Toronto Eritrean Community Centre: Website Design"
 weight: 1
-image: "/images/GTECCC-world-cafe.jpg"
+image: "/images/gteccc-worldcafe.jpg"
 ---
 
 Transforming how the Greater Toronto Eritrean Canadian Community Centre connects with its members by creating a centralized, accessible, and resourceful website.

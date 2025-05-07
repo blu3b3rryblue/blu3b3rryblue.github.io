@@ -1,7 +1,7 @@
 ---
 title: "Provincial Archives of New Brunswick: Records Retrieval Design"
 weight: 3
-image: "/images/archives-newbrunswick-repository.jpg"
+image: "/images/archivesnewbrunswick-repository.jpg"
 ---
 
 Identifying and addressing critical issues within the existing system at the PANB, and implementing effective solutions to enhance overall functionality and user experience.

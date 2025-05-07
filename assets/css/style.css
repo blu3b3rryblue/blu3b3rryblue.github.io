@@ -1293,3 +1293,27 @@ a[href$=".pdf"] {
   text-transform: none !important;
 }
 
+/* Hide menu list by default on small screens */
+#menu-list {
+  display: none;
+  flex-direction: column;
+  background: white; /* or match your site's background */
+  padding: 1em;
+}
+
+#menu-list.open {
+  display: flex;
+}
+
+/* Show menu normally on larger screens */
+@media (min-width: 768px) {
+  #menu-list {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  #m-btn {
+    display: none;
+  }
+}
+
