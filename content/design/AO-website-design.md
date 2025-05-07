@@ -1,7 +1,7 @@
 ---
 title: "Archives of Ontario: Website Design"
 weight: 2
-image: "/images/archives-Ontario-website.jpg"
+image: "/images/archives-ontario-website.jpg"
 ---
 
 Transforming the archival research experience by improving accessibility, simplifying workflows, and creating a user-friendly online platform.
