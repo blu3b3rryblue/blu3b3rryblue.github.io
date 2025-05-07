@@ -87,4 +87,6 @@ Even the most comprehensive guides lose their value if they aren’t readily acc
 
 ---
 
-**Thank you for reading!**
+Thank you for reading! 
+
+[**→ Back to design projects**](https://nadiamariyan.ca/design)

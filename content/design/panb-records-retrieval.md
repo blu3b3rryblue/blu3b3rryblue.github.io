@@ -70,5 +70,6 @@ This project was the catalyst for me pursuing a Master of Information specializi
 
 ---
 
-**Thank you for reading!**
+Thank you for reading! 
 
+[**→ Back to design projects**](https://nadiamariyan.ca/design)

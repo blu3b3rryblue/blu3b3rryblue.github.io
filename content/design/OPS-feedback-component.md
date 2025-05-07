@@ -4,4 +4,8 @@ weight: 6
 image: "/images/serviceontario.jpg"
 ---
 
-lorem
+---
+
+Thank you for reading! 
+
+[**→ Back to design projects**](https://nadiamariyan.ca/design)
