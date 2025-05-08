@@ -1,3 +1,5 @@
+console.log("✅ script.js is running");
+
 // Real-time Toronto Weather Forecast (Open-Meteo)
 loadJSON();
 
@@ -56,30 +58,9 @@ function populateForecast(data) {
   });
 }
 
-// Page size display
-
-document.addEventListener("DOMContentLoaded", function () {
-  const pageSizeEl = document.getElementById("size-value");
-
-  if (pageSizeEl) {
-    const performance = window.performance || window.webkitPerformance || window.msPerformance || window.mozPerformance;
-    if (performance && performance.getEntriesByType) {
-      const resources = performance.getEntriesByType("resource");
-      let totalSize = 0;
-
-      resources.forEach(resource => {
-        if (resource.transferSize) {
-          totalSize += resource.transferSize;
-        }
-      });
-
-      const htmlSize = document.documentElement.outerHTML.length;
-      totalSize += htmlSize;
-
-      const kbSize = (totalSize / 1024).toFixed(2);
-      pageSizeEl.textContent = `${kbSize}KB`;
-    } else {
-      pageSizeEl.textContent = "Unavailable";
-    }
-  }
+//mobile menu toggle
+const mobilemenu = document.getElementById('m-btn');
+mobilemenu.addEventListener('click', function() {
+    console.log('togglemenu');
+    document.getElementById('menu-list').classList.toggle("show");
 });

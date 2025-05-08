@@ -25,7 +25,8 @@
 	{{ block "main" . }}{{ end }}
 	{{ partial "footer" . }}
 
-	<script src="{{ .Site.BaseURL }}js/script.js"></script>
+	<script>console.log("Inline test script is running");</script>
+	<script src="/js/script.js"></script>
 
 	<script>
 	const weather_ignore = ["snow", "sleet", "wind", "fog"];

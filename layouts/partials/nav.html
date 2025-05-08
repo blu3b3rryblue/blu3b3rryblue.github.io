@@ -4,10 +4,10 @@
         <span id="m-btn">menu</span>
     </div>
     <ul id="menu-list">
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-        <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-            <a href="{{ if i18n .Identifier }}{{ absLangURL .URL }}{{else}}{{.URL}}{{ end }}" data-nav="{{.Name | urlize}}" {{if strings.HasPrefix .URL "https" }} target="_blank"{{end}}>
+     
+        {{ $currentPage := . }} {{ range .Site.Menus.main }}
+        <li class="{{ if $currentPage.HasMenuCurrent " main " . }}active {{ end }}">
+            <a href="{{ if i18n .Identifier }} {{ absLangURL .URL }} {{else}} {{.URL}} {{ end }}" data-nav="{{.Name | urlize}}" {{if strings.HasPrefix .URL "https" }} target="_blank" {{end}}>
                 <span>{{ i18n .Identifier | default .Name }}</span>
             </a>
         </li>
