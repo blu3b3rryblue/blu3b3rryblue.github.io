@@ -64,3 +64,21 @@ mobilemenu.addEventListener('click', function() {
     console.log('togglemenu');
     document.getElementById('menu-list').classList.toggle("show");
 });
+
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  try {
+    const response = await fetch(window.location.href, { method: "GET" });
+    const html = await response.text();
+    const sizeInBytes = new TextEncoder().encode(html).length;
+    const sizeInKB = (sizeInBytes / 1024).toFixed(2);
+
+    const sizeValue = document.getElementById("size-value");
+    if (sizeValue) {
+      sizeValue.textContent = `${sizeInKB} KB`;
+    }
+  } catch (error) {
+    console.error("Failed to calculate page size", error);
+  }
+});
+</script>
