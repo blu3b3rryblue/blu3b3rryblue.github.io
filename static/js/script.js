@@ -65,20 +65,28 @@ mobilemenu.addEventListener('click', function() {
     document.getElementById('menu-list').classList.toggle("show");
 });
 
-<script>
-document.addEventListener("DOMContentLoaded", async () => {
-  try {
-    const response = await fetch(window.location.href, { method: "GET" });
-    const html = await response.text();
-    const sizeInBytes = new TextEncoder().encode(html).length;
-    const sizeInKB = (sizeInBytes / 1024).toFixed(2);
 
-    const sizeValue = document.getElementById("size-value");
-    if (sizeValue) {
-      sizeValue.textContent = `${sizeInKB} KB`;
-    }
-  } catch (error) {
-    console.error("Failed to calculate page size", error);
-  }
+const comments = document.querySelectorAll('.comment');
+if ( comments.length > 0 ){
+    //update comment count
+    document.getElementById('comment-count').innerText = comments.length;
+}
+
+
+const dither_icons = document.querySelectorAll('.dither-toggle');
+dither_icons.forEach(icon => {
+	icon.addEventListener('click', function() {
+	    let figure = icon.closest('.figure-controls').previousElementSibling;
+	    let img = figure.querySelector('img');
+
+	    if( figure.getAttribute('data-imgstate') == "dither"){
+	    	figure.setAttribute('data-imgstate', 'undither');	    	
+	    	let original = img.getAttribute('data-original');
+	    	img.src = original;
+	    }else{
+	    	figure.setAttribute('data-imgstate', 'dither');
+	    	let dither= img.getAttribute('data-dither');
+	    	img.src = dither;
+	    }    
+	});
 });
-</script>
