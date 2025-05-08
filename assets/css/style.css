@@ -316,7 +316,6 @@ nav .rss {
   stroke: var(--color-sub);
 }
 
-
 #lang-menu {
   width: 26px;
   height: 25px;
@@ -1269,51 +1268,3 @@ Global Responsive Styles
     max-width: 50%;
   }
 }/*# sourceMappingURL=style.css.map */
-
-/* Custom styles for About page */
-.portrait {
-  max-width: 300%;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto 1rem auto;
-  mix-blend-mode: hard-light;
-}
-
-a[href$=".pdf"] {
-  display: inline-block;
-  margin: 0.5rem 0;
-  padding: 0.4rem 1rem;
-  border: 1px solid #000;
-  text-decoration: none;
-  font-style: italic;
-  color: #000;
-}
-.forecast .weather_day {
-  text-transform: none !important;
-}
-
-/* Hide menu list by default on small screens */
-#menu-list {
-  display: none;
-  flex-direction: column;
-  background: white; /* or match your site's background */
-  padding: 1em;
-}
-
-#menu-list.open {
-  display: flex;
-}
-
-/* Show menu normally on larger screens */
-@media (min-width: 768px) {
-  #menu-list {
-    display: flex !important;
-    flex-direction: row;
-  }
-
-  #m-btn {
-    display: none;
-  }
-}
-
