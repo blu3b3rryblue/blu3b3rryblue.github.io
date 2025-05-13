@@ -253,12 +253,12 @@ nav#menu > ul li {
   display: inline-block;
 }
 
-nav#menu > ul li::after {
-  content: "\00a0|\00a0"; /* Adds space before and after the pipe */
+nav#menu > ul li::before {
+  content: " | ";
 }
 
-nav#menu > ul li:last-child::after {
-  content: ""; /* No pipe after the last item */
+nav#menu > ul li:first-child::before, nav#menu > ul li:last-child::before {
+  content: "";
 }
 
 nav .category {
