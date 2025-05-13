@@ -90,3 +90,25 @@ dither_icons.forEach(icon => {
 	    }    
 	});
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Calculate total page size (HTML + assets)
+  let totalBytes = 0;
+
+  performance.getEntriesByType("resource").forEach(entry => {
+    if (entry.transferSize) {
+      totalBytes += entry.transferSize;
+    }
+  });
+
+  const navEntry = performance.getEntriesByType("navigation")[0];
+  if (navEntry && navEntry.transferSize) {
+    totalBytes += navEntry.transferSize;
+  }
+
+  const sizeInKB = (totalBytes / 1024).toFixed(2);
+  const sizeValue = document.getElementById("size-value");
+  if (sizeValue) {
+    sizeValue.textContent = `${sizeInKB} KB`;
+  }
+});
