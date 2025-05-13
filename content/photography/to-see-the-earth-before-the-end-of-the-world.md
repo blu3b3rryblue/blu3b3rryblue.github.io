@@ -8,4 +8,4 @@ image: "/images/to-see-the-earth.jpg"
 
 *Street view of One Hundred Steps* is of my estranged father's hometown in Trinidad. *in the garden #6*, is a screenshot from a webcam recording taken in a garden in Victoria, British Columbia during the height of the pandemic. Through these pieces, I examine how screens mediate and shape our understanding of space, place, and belonging.
 
-The accompanied video piece is viewable at [vimeo.com/523039338](vimeo.com/523039338).
+The accompanied video piece is viewable at [vimeo.com/523039338](https://vimeo.com/523039338).
