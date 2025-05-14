@@ -12,7 +12,7 @@ Transforming how the Greater Toronto Eritrean Canadian Community Centre connects
 Community Nonprofit
 
 ### **Client**  
-Greater Toronto Eritrean Canadian Community Centre
+Greater Toronto Eritrean Canadian Community Centre (GTECCC)
 
 ### **Team**  
 Fahma Mohamed (UX), Olya Jaworsky (UX), Siti Lei (UX), Nadia Mariyan Smith (UX)
@@ -98,16 +98,9 @@ We conducted usability testing with members of the GTECCC community. These sessi
 ---
 
 ## Final Design
-<!--
-### **Our final proposed design:**
-<br>  
-<div style="text-align: center;">
-  <video width="640" height="360" controls>
-    <source src="/videos/name" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
--->
+
+[Watch our final proposed design video on Vimeo.](https://vimeo.com/1084277926)
+
 ### **Supporting implementation**
 To help GTECCC move forward with the website development and content creation, I provided several resources and recommendations.
 

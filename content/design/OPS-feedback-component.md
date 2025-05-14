@@ -12,7 +12,7 @@ Setting the foundation for a unified, user-centered approach to collecting and u
 Government
 
 ### **Client**  
-Ontario Public Service, Service Ontario
+ServiceOntario (SO), Government of Ontario
 
 ### **Team**  
 Amrita Takhar (XD Lead), Maya Sarkulova (Senior UX Designer), Nadia Mariyan Smith (XD Co-op)
@@ -29,7 +29,7 @@ Miro, SharePoint
 
 ## ServiceOntario
 
-ServiceOntario (SO) is part of the Ministry of Public and Business Service Delivery and Procurement (MPBSDP) which provides a single point of contact for core provincial government services to individuals and businesses in the province of Ontario
+ServiceOntario (SO) is part of the Ministry of Public and Business Service Delivery and Procurement (MPBSDP) which provides a single point of contact for core provincial government services to individuals and businesses in the province of Ontario.
 
 ## Project Background
 

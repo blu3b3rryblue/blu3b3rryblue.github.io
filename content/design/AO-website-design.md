@@ -12,7 +12,7 @@ Modernizing the archival research experience by improving visbility and accessib
 Government Archives
 
 ### **Client**
-Archives of Ontario, Government of Ontario
+Archives of Ontario (AO), Government of Ontario
 
 ### **Team**
 Amrita Takhar (UX Lead), Nadia Mariyan Smith (UX Co-op), David Di Medicis (Content Designer)
@@ -112,6 +112,8 @@ On our second round of testing we had to pivot mid-testing when our solutions we
 --- 
 
 ## Final Design
+
+[Watch our final proposed design video on Vimeo.](https://vimeo.com/1084276320)
 
 ### **Limitations**
 - We could not fix FamilySearch and could not address historical record keeping issues.

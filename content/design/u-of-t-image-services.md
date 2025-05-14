@@ -8,17 +8,19 @@ Enhancing the clarity and efficiency of image handling, scanning, and editing me
 
 ---
 
-### Sector  
-**Education**
+### **Sector**
+Education
 
-### Client  
-**University of Toronto**
+### **Client**
+Image Services, The University of Toronto
 
-### Tools  
-**Adobe Photoshop, EPSON Scan, EPSON V850, VueScan, SilverFast, Nikon CoolScan 9000, Miro**
+### **Tools**
+Adobe Photoshop, EPSON Scan, EPSON V850, VueScan, SilverFast, Nikon CoolScan 9000, Miro
 
-### My Role  
-**I was responsible for researching best archival practices, testing equipment and software, and writing user research guides as part of building better and consistent image services.**
+### **My Role**
+I was responsible for researching best archival practices, testing equipment and software, and writing user research guides as part of building better and consistent image services.
+
+<br>
 
 ---
 
@@ -26,19 +28,21 @@ Enhancing the clarity and efficiency of image handling, scanning, and editing me
 
 Image Services maintains the Art History Department's extensive 35mm slide collection and provides services such as digital imaging, image sourcing, software consultations, and audiovisual equipment support for classroom and event use. 
 
-## Challenges
+## Project Background
 
-**As Image Technicians often operate independently, ensuring they have comprehensive resources for their tasks is crucial.** Recognizing the need for established best practices, I initiated the creation of user guides to provide clear instructions and support. Understanding the need for consistency in achieving archival quality, I conducted extensive testing on various machines and software, aiming to identify the most effective tools and methods for our workflows.
+Image Services aimed to create user guides for new and existing Image Technician employees to standardize processes and enhance onboarding.  
+
+<br>
 
 ---
 
 ## Stakeholder and User Needs
+I conducted informal discussions with employees and the manager.
 
-**What Employees Wanted:**
-Employees wanted clear guidance on the various hardware and software tools at their disposal, along with quick, accessible answers while working independently. They also emphasized the need for practices that consistently meet archival standards.
+- **Image Technicians** wanted clear guidance on the various hardware and software tools at their disposal, along with quick, accessible answers while working independently. They also emphasized the need for practices that consistently meet archival standards.
+- **The Visual Resource Curator** sought a thorough evaluation of available hardware and software, along with concise user guides to support both new and experienced employees in meeting professional archival benchmarks.
 
-**What the Visual Resource Curator Wanted:**
-The Visual Resource Curator sought a thorough evaluation of available hardware and software, along with concise user guides to support both new and experienced employees in meeting professional archival benchmarks.
+<br>
 
 ---
 
@@ -64,28 +68,38 @@ Finally, I organized and distributed the completed guides through official depar
 
 ---
 
-## Outcomes
+## Designs
 
 The project resulted in two user guides with clear guidance for users engaging in scanning and editing processes:
 
 **EPSON V850 User Guide**  
 A concise manual providing instructions and information on the operation and features of the EPSON V850 slide scanning hardware and software.  
 
+![EPSON Guide](/images/image-services-EPSONV850guide.jpg)
+
+<a href="/pdfs/Image Services - EPSON V850 Slide Scanning.pdf" target="_blank" rel="noopener">Image Services - EPSON V850 Slide Scanning</a>
 
 **Adobe Photoshop User Guide**  
 A concise manual providing instructions and insights into the functionality and optimal use of frequently employed tools within the Adobe Photoshop software.  
+
+![Adobe Guide](/images/image-services-AdobePhotoshopguide.jpg)
+
+<a href="/pdfs/Image Services - Adobe Photoshop User Guide.pdf" target="_blank" rel="noopener">Image Services - Adobe Photoshop User Guide</a>
+
+<br>
 
 ---
 
 ## Takeaways
 
-**Importance of Feedback**  
-I realized the importance of feedback from both the supervisor and the colleagues when designing the user guides, as it ensured that they were tailored to meet the specific needs and expectations of all stakeholders.
+- **Importance of Feedback:** I realized the importance of feedback from both the supervisor and the colleagues when designing the user guides, as it ensured that they were tailored to meet the specific needs and expectations of all stakeholders.
+- **Ensure Easy Access:** Even the most comprehensive guides lose their value if they aren’t readily accessible. Ensuring that colleagues can easily find and use these resources is essential to keeping everyone aligned and informed.
 
-**Easy Access**  
-Even the most comprehensive guides lose their value if they aren’t readily accessible. Ensuring that colleagues can easily find and use these resources is essential to keeping everyone aligned and informed.
+<br>
 
 ---
+
+<br>
 
 Thank you for reading! 
 
