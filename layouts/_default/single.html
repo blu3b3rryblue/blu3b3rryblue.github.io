@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+<main class='article {{ range .Params.categories }} {{ . | urlize }} {{ end }}'>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">{{ .Title }}</h1>
+				{{ if or (eq .Title "Power") (eq .Title "Privacy Policy") }}
+   				 <p class="summary">{{ .Params.description | default .Summary }}</p>
+				{{ end }}
+				
+				{{ if .Params.image }}
+				<div class="featured-image">
+					<img src="{{ .Params.image }}" alt="{{ .Title }}">
+				</div>
+				{{ end }}
+			</header>
+
+			<div class="entry-content">
+				{{- $contents := split .Content `<div class="footnotes" role="doc-endnotes">` -}}
+				{{ index $contents 0 | safeHTML }}
+			</div>
+
+			{{ if not (in .Params.categories "About") }}
+			{{ partial "post-footer" }}
+			{{ end }}
+		</section>
+
+		{{ $commentsfile := printf "comments.%s.md" .Lang }}
+		{{ with .Resources.GetMatch $commentsfile }}
+		<section class="comments" id="comments">
+			<h2 id="comments-title">Comments</h2>
+			<p><em>To make a comment, please send an e-mail to solar (at) lowtechmagazine (dot) com.</em></p>
+			<details>
+				<summary><span id="comment-count"></span> Reactions</summary>
+				<div id="comments-list"></div>
+			</details>			
+		</section>
+		{{ end }}
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			{{ index $contents 1 | safeHTML }}
+		</section>
+	</article>
+</main>
+
+{{ end }}

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Service Ontario: Feedback Component Design | Nadia Mariyan Smith</title>
+	<meta name="description" content="This site is under construction">
+	<meta name="author" content="Nadia Mariyan Smith">
+
+	<link rel="icon" href="//localhost:1313/icons/sun.svg">
+
+	
+	<link rel="stylesheet" href="//localhost:1313/css/style.css"><meta property="og:title" content="Service Ontario: Feedback Component Design" />
+<meta name="twitter:title" content="Service Ontario: Feedback Component Design"/>
+
+<meta property="og:description" content="Setting the foundation for a unified, user-centered approach to collecting and using customer feedback at ServiceOntario.
+
+Sector
+Government
+Client
+Ontario Public Service, Service Ontario
+Team
+Amrita Takhar (XD Lead), Maya Sarkulova (Senior UX Designer), Nadia Mariyan Smith (XD Co-op)
+Tools
+Miro, SharePoint
+My Role
+
+
+ServiceOntario
+ServiceOntario (SO) is part of the Ministry of Public and Business Service Delivery and Procurement (MPBSDP) which provides a single point of contact for core provincial government services to individuals and businesses in the province of Ontario" />
+
+<meta name="twitter:description" content="Setting the foundation for a unified, user-centered approach to collecting and using customer feedback at ServiceOntario.
+
+Sector
+Government
+Client
+Ontario Public Service, Service Ontario
+Team
+Amrita Takhar (XD Lead), Maya Sarkulova (Senior UX Designer), Nadia Mariyan Smith (XD Co-op)
+Tools
+Miro, SharePoint
+My Role
+
+
+ServiceOntario
+ServiceOntario (SO) is part of the Ministry of Public and Business Service Delivery and Procurement (MPBSDP) which provides a single point of contact for core provincial government services to individuals and businesses in the province of Ontario"/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//localhost:1313/design/ops-feedback-component/" />
+
+<meta property="og:image" content="//localhost:1313/icons/sun.svg" />
+<meta property="og:image:secure_url" content="//localhost:1313/icons/sun.svg" />
+<meta property="og:image:type" content="image/svg+xml">
+<meta property="og:image:width" content="300" />
+<meta property="og:image:height" content="300" />
+<meta name="twitter:card" content="summary"/><meta property="article:section" content="design" />
+
+<meta property="og:site_name" content="Nadia Mariyan Smith" />
+
+
+<meta property="article:author" content="Nadia Mariyan Smith" />
+<meta name="citation_author" content="Nadia Mariyan Smith">
+
+</head>
+<body id="service-ontario-feedback-component-design">
+	<div class="battery_bg">
+	<div id="battery_data" class="bat_status" data-charging="no">
+	  <a href="//localhost:1313/power/" title="Power">
+	    <span id="charge_icon">
+	      <svg class="icon battery-svg" viewBox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"/><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"/></svg>
+	      
+	      <svg class="icon sun-svg" viewBox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"/><rect class="svg_fill" x="234.53" y="17.45" width="27.9" height="112.39"/><rect class="svg_fill" x="234.53" y="375.25" width="27.9" height="112.39"/><rect class="svg_fill" x="413.42" y="196.35" width="27.9" height="112.39" transform="translate(679.92 -174.83) rotate(90)"/><rect class="svg_fill" x="55.63" y="196.35" width="27.9" height="112.39" transform="translate(322.12 182.97) rotate(90)"/><rect class="svg_fill" x="361.03" y="69.85" width="27.9" height="112.39" transform="translate(198.96 -228.23) rotate(45)"/><rect class="svg_fill" x="108.03" y="322.85" width="27.9" height="112.39" transform="translate(303.75 24.77) rotate(45)"/><rect class="svg_fill" x="361.03" y="322.85" width="27.9" height="112.39" transform="translate(908.15 381.93) rotate(135)"/><rect class="svg_fill" x="108.03" y="69.85" width="27.9" height="112.39" transform="translate(297.35 128.93) rotate(135)"/></svg>
+	    </span>
+	    <span id="level"></span></a>
+	</div>
+	<div id="battery">
+	</div>
+</div>
+	<header class="site-header">
+  <h1><a id="top" href="//localhost:1313/">Nadia Mariyan Smith</a></h1>
+  <div class="subtitle"> 
+    <a href="//localhost:1313/power">This site is under construction      
+    </a>
+  </div>
+  <nav id="menu">
+    <div id="menu-s">
+        
+
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+         
+        <li class="">
+            <a href=" /about/ " data-nav="about" >
+                <span>About </span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /photography/ " data-nav="photography" >
+                <span>Photography </span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /design/ " data-nav="design" >
+                <span>Design </span>
+            </a>
+        </li>
+        
+        <li class="">
+            <a href=" /writing/ " data-nav="writing" >
+                <span>Writing </span>
+            </a>
+        </li>
+        
+
+        <li class="rss">
+            <a href="mailto:nadiamariyan@gmail.com">
+                <svg viewBox="0 0 24 24" class="icon">
+                    <title>Email</title>
+                    <path d="M1,5v14h22V5H1z M21,6.5l-9,6.3L3,6.5V6h18V6.5z"/>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/nadia-mariyan-smith" target="_blank">
+                <svg viewBox="0 0 24 24" class="icon"><title>LinkedIn</title>
+                    <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.7v2.5h.07c.65-1.2 2.24-2.5 4.6-2.5 4.9 0 5.8 3.2 5.8 7.4V24h-5v-6.8c0-1.6-.03-3.6-2.2-3.6s-2.5 1.7-2.5 3.5V24h-5V8z"/>
+                </svg>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+ 
+</header>
+
+	
+
+<main class='article '>
+
+	<article>
+		<section id="content" class="article">
+			<header class="entry-header">
+				<h1 class="entry-title">Service Ontario: Feedback Component Design</h1>
+				
+				
+				
+				<div class="featured-image">
+					<img src="/images/serviceontario.jpg" alt="Service Ontario: Feedback Component Design">
+				</div>
+				
+			</header>
+
+			<div class="entry-content"><p>Setting the foundation for a unified, user-centered approach to collecting and using customer feedback at ServiceOntario.</p>
+<hr>
+<h3 id="sector"><strong>Sector</strong></h3>
+<p>Government</p>
+<h3 id="client"><strong>Client</strong></h3>
+<p>Ontario Public Service, Service Ontario</p>
+<h3 id="team"><strong>Team</strong></h3>
+<p>Amrita Takhar (XD Lead), Maya Sarkulova (Senior UX Designer), Nadia Mariyan Smith (XD Co-op)</p>
+<h3 id="tools"><strong>Tools</strong></h3>
+<p>Miro, SharePoint</p>
+<h3 id="my-role"><strong>My Role</strong></h3>
+<br>
+<hr>
+<h2 id="serviceontario">ServiceOntario</h2>
+<p>ServiceOntario (SO) is part of the Ministry of Public and Business Service Delivery and Procurement (MPBSDP) which provides a single point of contact for core provincial government services to individuals and businesses in the province of Ontario</p>
+<h2 id="project-background">Project Background</h2>
+<p>SO lacked standardized methods and workflows for collecting customer feedback across centres, services, and channels. This inconsistency led to unreliable data — for example, a change in one service’s feedback method significantly skewed the overall Customer Satisfaction (CSAT) score. Without accurate insights, program areas struggled to improve services effectively.</p>
+<p>The Experience Design Team supported multiple SO workstreams to map the feedback ecosystem and data flows. In collaboration with the Voice of Customers program, we worked to define SO-wide standards for collecting and using customer feedback.</p>
+<hr>
+<h2 id="this-page-is-under-construction">This page is under construction.</h2>
+<br>
+<hr>
+<br>
+<p>Thank you for reading!</p>
+<p><a href="/design" ><strong>→ Back to design projects</strong></a></p>
+
+			</div>
+
+			
+			
+			
+		</section>
+
+		
+		
+
+		<section id="reference">
+			<div class="footnotes" role="doc-endnotes">
+			
+		</section>
+	</article>
+</main>
+
+
+	<footer class="site-footer">
+    <div id=page-size>Page Size: <span id="size-value"> $PLACEHOLDER</span></div>
+    <div id=back-to-top><a id="" href="#top" title="Back to top"> ↑ </a></div>
+    <h2>
+        <a href="//localhost:1313/">Nadia Mariyan Smith</a>
+    </h2>
+    <div class="dashboard">
+        <ul class="grid">
+            <li>
+                <h3>Server Stats</h3>
+                <dl id="stats">
+                </dl>
+            </li>
+            <li>
+                <h3>Forecast</h3>
+                <div class="forecast"></div>
+            </li>
+            <li>
+                <h3>Info</h3>
+                <div class="footer-links">
+    <a href="//localhost:1313/about">
+  About
+</a>
+    <a href="//localhost:1313/power">
+  Power
+</a>
+    <a href="/privacy">
+  Privacy Policy
+</a>
+</div>
+            </li>
+            <li>
+                <h3>Contact</h3>
+                <p>
+                    &copy; Nadia Mariyan Smith<br> nadiamariyan [at] gmail [dot] com</p>
+
+                <div class="social">
+                    
+                    
+                    <a href="https://www.linkedin.com/in/nadia-mariyan-smith/" target="_blank">
+                        <svg class="icon" viewBox="0 0 24 24">
+                          <title>LinkedIn</title>
+                          <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.7v2.5h.07c.65-1.2 2.24-2.5 4.6-2.5 4.9 0 5.8 3.2 5.8 7.4V24h-5v-6.8c0-1.6-.03-3.6-2.2-3.6s-2.5 1.7-2.5 3.5V24h-5V8z"/>
+                        </svg>
+                      </a>
+                      
+                      <a href="https://mastodon.social/@nadiamariyan" target="_blank">
+                        <svg class="icon" viewBox="0 0 24 24">
+                          <title>Mastodon</title>
+                          <path d="M22.5,7.9c0-4.88-1.94-6.31-1.94-6.31-3.99-1.46-7.09-1.78-8.65-1.77h-0.08c-1.56-0.01-4.67,0.32-8.65,1.77C3.44,1.59,1.5,3.02,1.5,7.9c0,0.96-0.02,2.1,0.01,3.31,0.22,5.16,1.54,8.52,6.12,9.95,1.83,0.49,3.4,0.6,4.67,0.52,2.3-0.13,3.58-0.82,3.58-0.82l-0.08-1.67s-1.64,0.53-3.49,0.47c-1.83-0.06-3.77-0.16-4.06-2.02-0.05-0.52-0.04-1.03-0.03-1.15c1.72,0.07,3.36,0.13,4.22,0.19c1.45,0.07,2.79-0.08,4.16-0.24c2.63-0.31,4.92-1.93,5.2-3.41C22.54,11.55,22.5,7.9,22.5,7.9Z"/>
+                        </svg>
+                      </a>
+                      
+                      <a href="https://www.instagram.com/nadiamariyan/" target="_blank">
+                        <svg class="icon" viewBox="0 0 24 24">
+                          <title>Instagram</title>
+                          <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 1.5A4 4 0 0 0 3.5 7.5v9A4 4 0 0 0 7.5 20.5h9a4 4 0 0 0 4-4v-9a4 4 0 0 0-4-4h-9zm9 2a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5zm-4.5 1a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 1.5a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
+                        </svg>
+                      </a>
+                      
+
+                </div>
+                
+
+            </li>
+        </ul>
+    </div>
+    <p style="text-align: center; font-size: 0.8rem; color: #666; margin-top: 1rem;">
+      <a href="https://github.com/lowtechmag/solar_v2" target="_blank">Solar</a>
+      is a Hugo theme designed for 
+      <a href="https://solar.lowtechmagazine.com" target="_blank">Low-Tech Magazine</a>.
+      It is an attempt to radically reduce the energy use the associated with accessing web content.
+    </p>
+
+    
+    
+</footer>
+
+	<script>console.log("Inline test script is running");</script>
+	<script src="/js/script.js"></script>
+
+	<script>
+	const weather_ignore = ["snow", "sleet", "wind", "fog"];
+	const weather_days = ["today", "tomorrow", "day after tomorrow"];
+	let forecast = "";
+	
+	fetch("https://api.open-meteo.com/v1/forecast?latitude=43.65107&longitude=-79.347015&daily=weathercode&timezone=America%2FToronto")
+	  .then(response => response.json())
+	  .then(data => {
+		const codes = data.daily.weathercode;
+	
+		for (let i = 0; i < 3; i++) {
+		  let icon = getIconFromCode(codes[i]);
+		  let label = weather_days[i];
+		  forecast += `<span class="weather_day">${label}</span><span class="weather_icon ${icon}"></span><br>`;
+		}
+	
+		document.querySelectorAll('.forecast').forEach(el => el.innerHTML = forecast);
+	  });
+	
+	function getIconFromCode(code) {
+	  if ([0, 1].includes(code)) return "clear-day";
+	  if ([2, 3].includes(code)) return "partly-cloudy-day";
+	  if ([45, 48].includes(code)) return "cloudy";
+	  if ([51, 53, 55, 61, 63, 65].includes(code)) return "rain";
+	  return "cloudy";
+	}
+	</script>	
+
+</body>
+</html>

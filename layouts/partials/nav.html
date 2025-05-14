@@ -1,0 +1,30 @@
+<nav id="menu">
+    <div id="menu-s">
+        {{ partial "lang-nav" . }}
+        <span id="m-btn">menu</span>
+    </div>
+    <ul id="menu-list">
+     
+        {{ $currentPage := . }} {{ range .Site.Menus.main }}
+        <li class="{{ if $currentPage.HasMenuCurrent " main " . }}active {{ end }}">
+            <a href="{{ if i18n .Identifier }} {{ absLangURL .URL }} {{else}} {{.URL}} {{ end }}" data-nav="{{.Name | urlize}}" {{if strings.HasPrefix .URL "https" }} target="_blank" {{end}}>
+                <span>{{ i18n .Identifier | default .Name }}</span>
+            </a>
+        </li>
+        {{ end }}
+
+        <li class="rss">
+            <a href="mailto:nadiamariyan@gmail.com">
+                <svg viewBox="0 0 24 24" class="icon">
+                    <title>Email</title>
+                    <path d="M1,5v14h22V5H1z M21,6.5l-9,6.3L3,6.5V6h18V6.5z"/>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/nadia-mariyan-smith" target="_blank">
+                <svg viewBox="0 0 24 24" class="icon"><title>LinkedIn</title>
+                    <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.7v2.5h.07c.65-1.2 2.24-2.5 4.6-2.5 4.9 0 5.8 3.2 5.8 7.4V24h-5v-6.8c0-1.6-.03-3.6-2.2-3.6s-2.5 1.7-2.5 3.5V24h-5V8z"/>
+                </svg>
+            </a>
+        </li>
+    </ul>
+</nav>

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main class="article-list">
+    <header>
+        <h1 class="entry-title">{{ .Title }}</h1>
+    </header>
+    <section id="list" class="grid">
+        {{ $allposts := .Pages }}
+        {{ $paginator := .Paginate $allposts }}
+        {{ range $paginator.Pages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
+    {{ if gt $paginator.TotalPages 1}}
+        {{ partial "pagination" . }}
+    {{ end }}
+</main>
+{{ end }}
