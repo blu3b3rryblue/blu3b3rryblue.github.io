@@ -68,20 +68,7 @@ In-depth discovery was needed to understand the complex processes and data:
 - Many researchers did not know that many of the records are available online, which saves them coming in for an in-person visit or spending money on ordering a copy by mail.
 - AO staff spend excess time helping users find what they need. 
 
-<!--
-
-### **The current online research process:**  
-<br>
-<div style="text-align: center;">
-  <video width="640" height="360" controls>
-   <source src="/videos/name" type="video/quicktime">
-      Your browser does not support the video tag.
-</video>
-</div>
-
-<br>
-
--->
+<br> 
 
 ---
 
@@ -125,18 +112,6 @@ On our second round of testing we had to pivot mid-testing when our solutions we
 --- 
 
 ## Final Design
-
-<!--
-### **Our final proposed design:**
-<br> 
-<div style="text-align: center;">
-  <video width="640" height="360" controls>
-    <source src="/videos/name.mov" type="video/quicktime">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
--->
 
 ### **Limitations**
 - We could not fix FamilySearch and could not address historical record keeping issues.
