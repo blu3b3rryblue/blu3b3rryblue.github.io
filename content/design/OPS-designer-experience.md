@@ -26,13 +26,6 @@ I led recruitment, organized and facilitated user research sessions, analyzed qu
 <br>
 
 ---
-
-## This page is under construction. 
-
-<br>
-
----
-
 ## Treasury Board Secretariat
 
 The Treasury Board Secretariat (TBS) is the ministry of the Government of Ontario that is charged with supporting the work of the Treasury Board/Management Board of Cabinet, a joint sub-committee of cabinet that manages the fiscal plan of the government. This includes reviewing and controlling all government spending, approving labour agreements and workforce planning, management of the provincial contingency fund, and overseeing the procedures and directives that guide the operation of the Ontario Public Service.
