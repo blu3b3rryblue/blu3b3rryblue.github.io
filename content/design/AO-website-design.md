@@ -68,6 +68,8 @@ In-depth discovery was needed to understand the complex processes and data:
 - Many researchers did not know that many of the records are available online, which saves them coming in for an in-person visit or spending money on ordering a copy by mail.
 - AO staff spend excess time helping users find what they need. 
 
+[Watch the current process walkthrough video on Vimeo.](https://vimeo.com/1084348129)
+
 <br> 
 
 ---
