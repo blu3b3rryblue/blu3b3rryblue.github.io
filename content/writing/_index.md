@@ -2,4 +2,4 @@
 title: "Writing"
 ---
 
-Coming soon!
+Welcome to my writing. 
