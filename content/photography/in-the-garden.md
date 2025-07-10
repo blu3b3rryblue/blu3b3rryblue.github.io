@@ -9,3 +9,5 @@ In [*in the garden* (1:49min)](https://vimeo.com/523039338), I face the webcam b
 Sound plays a role in our experience of physicality. I draw from composer Miya Masaoka’s use of biofeedback to produce “plant sounds” in real-time on a modular synthesizer. I extend this exploration of nature versus machine with the function of using my 10-year old laptop and it’s built in microphone to pick up the sounds of my exploration into the garden.
 
 Nature is often regarded as a place of refuge from trauma. *to see the earth before the end of the world* explores our changing relationship to nature amidst climate and political catastrophe.
+
+![Alt text](/images/in-the-garden-2.jpg)

@@ -3,7 +3,7 @@ title: "About"
 summary: ""
 ---
 
-![Portrait of Nadia](/images/nadia-profile.jpg)
+![Portrait of Nadia](/images/nadia-profile2.jpg)
 
 I’m a researcher, designer and community worker interested in justice-oriented, more-than-human design approaches that prioritize collective well-being and ecological sustainability.
 
