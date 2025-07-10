@@ -11,3 +11,5 @@ Sound plays a role in our experience of physicality. I draw from composer Miya M
 Nature is often regarded as a place of refuge from trauma. *to see the earth before the end of the world* explores our changing relationship to nature amidst climate and political catastrophe.
 
 ![Alt text](/images/in-the-garden-2.jpg)
+
+*in the garden* projected on the wall outside of Saint-Laurent Metro Station in Tiohtià:ke (Montréal) as part of "Hereafter." May 1-31, 2021. 

@@ -8,6 +8,6 @@ image: "/images/ill-remember.jpg"
 
 ![Alt text](/images/ill-remember-tree.jpg)
 
-![Alt text](/images/ill-remember-grate.jpg)
+<!--![Alt text](/images/ill-remember-grate.jpg) <--
 
 
