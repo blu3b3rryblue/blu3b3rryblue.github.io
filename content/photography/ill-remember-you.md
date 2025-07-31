@@ -8,6 +8,14 @@ image: "/images/ill-remember.jpg"
 
 ![Alt text](/images/ill-remember-tree.jpg)
 
-<!--![Alt text](/images/ill-remember-grate.jpg) <--
+![Alt text](/images/ill-remember-rock.jpg)
 
+![Alt text](/images/ill-remember-alley.jpg)
 
+![Alt text](/images/ill-remember-footprints.jpg)
+
+![Alt text](/images/ill-remember-cracks.jpg)
+
+![Alt text](/images/ill-remember-grate.jpg)
+
+![Alt text](/images/ill-remember-alley2.jpg)
