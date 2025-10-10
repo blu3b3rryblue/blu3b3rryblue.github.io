@@ -1,6 +1,6 @@
 ---
 title: "existing digitally"
-weight: 9
+weight: 10
 image: "/images/existing-digitally.jpg"
 ---
 

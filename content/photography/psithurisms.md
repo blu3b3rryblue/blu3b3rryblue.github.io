@@ -1,6 +1,6 @@
 ---
 title: "psithurisms"
-weight: 5
+weight: 6
 image: "/images/psithurisms-1.png"
 ---
 

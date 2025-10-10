@@ -1,6 +1,6 @@
 ---
 title: "i'll remember you not as you were, but as what you'll become"
-weight: 1
+weight: 2
 image: "/images/ill-remember.jpg"
 ---
 

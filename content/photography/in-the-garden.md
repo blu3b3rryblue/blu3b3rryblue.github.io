@@ -1,6 +1,6 @@
 ---
 title: "in the garden"
-weight: 7
+weight: 8
 image: "/images/in-the-garden-1.jpg"
 ---
 
