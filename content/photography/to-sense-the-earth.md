@@ -6,7 +6,7 @@ image: "/images/to-sense-the-earth-v1.jpg"
 
 The collage *to sense the earth before the end of the world* (2025) assembles “cyborg” sensory prostheses—solar listening devices, plant biofeedback interfaces, haptic webcams, wave-sound amplifiers, and speaking-to-the-land megaphones—that attune human sensibilities to more-than-human rhythms. It imagines how such technologies, born of DIY, artistic, and community practice, might resist extractive logics and reconnect us to the intelligence and sacredness of the living earth and its inhabitants.
 
-[View it in Rooted Futures' Glitch 2025 Cyborganisms Zine -->](https://heyzine.com/flip-book/ed183a257e.html#page/4)
+[View it in Rooted Futures' Glitch 2025 Cyborganisms Zine -->](https://heyzine.com/flip-book/ed183a257e.html#page/1)
 
 <br/>
 
