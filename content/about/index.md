@@ -5,7 +5,7 @@ summary: ""
 
 ![Portrait of Nadia](/images/nadia-profile2.jpg)
 
-I’m a researcher, designer, and community worker interested in justice-oriented, more-than-human design approaches that center [relational entaglement](https://decolonialfutures.net/relational-experiments-momentum-vs-vitality/), Indigenous Knowledge, [low tech](https://solar.lowtechmagazine.com/low-tech-solutions/), [lo-TEK](https://www.lo-tek.com/), [mutual-aid](https://en.wikipedia.org/wiki/Mutual_aid), and [degrowth](https://static1.squarespace.com/static/59bc0e610abd04bd1e067ccc/t/5cb6db356e9a7f14e5322a62/1555487546989/Hickel+-+Degrowth%2C+A+Theory+of+Radical+Abundance.pdf) as ways to sustain and care for the collective wellness of all beings. 
+I’m a researcher, designer, and community worker interested in justice-oriented, more-than-human design approaches that center [relational entaglement](https://decolonialfutures.net/relational-experiments-momentum-vs-vitality/), Indigenous Knowledge, [low tech](https://solar.lowtechmagazine.com/low-tech-solutions/), [mutual-aid](https://en.wikipedia.org/wiki/Mutual_aid), and [degrowth](https://static1.squarespace.com/static/59bc0e610abd04bd1e067ccc/t/5cb6db356e9a7f14e5322a62/1555487546989/Hickel+-+Degrowth%2C+A+Theory+of+Radical+Abundance.pdf) as ways to sustain and care for the collective wellness of all beings. 
 
 I also make photographs.
 
