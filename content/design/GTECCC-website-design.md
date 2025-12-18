@@ -4,7 +4,7 @@ weight: 2
 image: "/images/gteccc-worldcafe.jpg"
 ---
 
-Transforming how the Greater Toronto Eritrean Canadian Community Centre connects with its members by creating a centralized, accessible, and resourceful website.
+Transforming how the Greater Toronto Eritrean Canadian Community Centre connects with its members by creating a centralized, accessible, and resourceful website: [gteccc.ca](http://gteccc.ca/)
 
 ---
 

@@ -4,9 +4,9 @@
   <url>
     <loc>//localhost:1313/writing/are-you-thirsty-so-is-your-ai/</loc>
   </url><url>
-    <loc>//localhost:1313/photography/to-sense-the-earth/</loc>
-  </url><url>
     <loc>//localhost:1313/design/ao-website-design/</loc>
+  </url><url>
+    <loc>//localhost:1313/photography/to-sense-the-earth/</loc>
   </url><url>
     <loc>//localhost:1313/design/gteccc-website-design/</loc>
   </url><url>
@@ -41,6 +41,8 @@
     <loc>//localhost:1313/</loc>
   </url><url>
     <loc>//localhost:1313/about/</loc>
+  </url><url>
+    <loc>//localhost:1313/article-template-how-to/</loc>
   </url><url>
     <loc>//localhost:1313/authors/</loc>
   </url><url>

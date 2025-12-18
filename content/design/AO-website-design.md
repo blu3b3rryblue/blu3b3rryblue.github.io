@@ -1,10 +1,10 @@
 ---
-title: "Provincial Archives of Ontario: Research Process Modernization"
+title: "Provincial Archives of Ontario: Research Process and Website Redesign"
 weight: 1
 image: "/images/archivesontario-website.jpg"
 ---
 
-Modernizing the archival research experience by improving visbility and accessibility of documents, simplifying workflows, and creating a user-friendly online platform.
+Redesigning the archival research experience by improving visbility and accessibility of documents, simplifying workflows, and creating a user-friendly online platform: [www.archives.gov.on.ca](https://www.archives.gov.on.ca/) 
 
 ---
 
