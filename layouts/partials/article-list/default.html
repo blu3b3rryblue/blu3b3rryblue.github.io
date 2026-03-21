@@ -1,8 +1,13 @@
 <div class="article {{ range .Params.categories }} {{ . | urlize }} {{ end }}">
-    <a href="{{ .Permalink }}">
-        {{ with .Params.image }}
-            <div class="featured-img" style="background-image: url('{{ . }}');"></div>
-        {{ end }}
+    <!-- <a href="{{ .Permalink }}"> -->
+    {{ with .Params.image }}
+        <!-- <div class="featured-img" style="background-image: url('{{ . }}');"></div>   -->
+        <div class="featured-img" data-bg="url('{{ . }}')">
+            <button class="load-img-btn" aria-label="Load image">Load image</button>
+        </div>
+    {{ end }}
+
+     <a href="{{ .Permalink }}">
         <h3 class="entry-title">{{ .Title }}</h3>
         <p class="index-summary">{{ (.Summary | truncate 100) }}</p>
     </a>

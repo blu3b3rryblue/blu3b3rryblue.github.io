@@ -9,7 +9,19 @@
 {{- $alt  := .Inner -}}
 <div class="article-img {{if le $img.Width (mul $img.Height 1.2)}} vertical{{end}}">
 <figure data-imgstate="dither">
-<img src="{{with $dithered_image }}{{ .Permalink }}{{end}}" alt='{{ with $alt }}{{ $alt | markdownify| plainify }}{{ else }}{{ .Get "alt" }}{{ . | markdownify| plainify }}{{ end }}' data-original="{{if $thumb}}{{$thumb.Permalink}}{{else}}images/{{$old_filename }}{{end}}" data-dither="{{with $dithered_image }}{{ .RelPermalink }}{{end}}" loading="lazy"/> </figure>
+<!-- <img src="{{with $dithered_image }}{{ .Permalink }}{{end}}" alt='{{ with $alt }}{{ $alt | markdownify| plainify }}{{ else }}{{ .Get "alt" }}{{ . | markdownify| plainify }}{{ end }}' data-original="{{if $thumb}}{{$thumb.Permalink}}{{else}}images/{{$old_filename }}{{end}}" data-dither="{{with $dithered_image }}{{ .RelPermalink }}{{end}}" loading="lazy"/> </figure> -->
+<div class="img-load-wrapper">
+<button class="load-img-btn" aria-label="Load image">Load image</button>
+    <img data-src="{{with $dithered_image }}{{ .Permalink }}{{end}}" alt='{{ with $alt }}{{ $alt | markdownify| plainify }}{{ else }}{{ .Get "alt" }}{{ . | markdownify| plainify }}{{ end }}' data-original="{{if $thumb}}{{$thumb.Permalink}}{{else}}images/{{$old_filename }}{{end}}" data-dither="{{with $dithered_image }}{{ .RelPermalink }}{{end}}" loading="lazy"/>
+</div>
+<div class="figure-controls">
+  <figcaption class="caption">
+    ...caption...
+    <button class="load-original" type="button">Load full image</button>
+    ...existing dither toggle...
+  </figcaption>
+</div>
+
 <div class="figure-controls">
 <figcaption class="caption">
 
@@ -26,7 +38,7 @@
 </div>
 </figcaption>
 </div>
-</div>
+</div> 
 
 {{- else -}}
 
@@ -36,7 +48,11 @@
 {{- $alt  := .Inner -}}
 <div class="article-img">
 <figure data-imgstate="dither">
-<img src="{{with $dithered_image }}{{ .Permalink }}{{end}}" alt='{{ with $alt }}{{ $alt | markdownify| plainify }}{{ else }}{{ .Get "alt" }}{{ . | markdownify| plainify }}{{ end }}' data-original="images/{{$old_filename }}" data-dither="{{with $dithered_image }}{{ .Permalink }}{{end}}" loading="lazy"/> </figure>
+<!-- <img src="{{with $dithered_image }}{{ .Permalink }}{{end}}" alt='{{ with $alt }}{{ $alt | markdownify| plainify }}{{ else }}{{ .Get "alt" }}{{ . | markdownify| plainify }}{{ end }}' data-original="images/{{$old_filename }}" data-dither="{{with $dithered_image }}{{ .Permalink }}{{end}}" loading="lazy"/> </figure> -->
+<div class="img-load-wrapper">
+<button class="load-img-btn" aria-label="Load image">Load image</button>
+    <img src="{{with $dithered_image }}{{ .Permalink }}{{end}}" alt='{{ with $alt }}{{ $alt | markdownify| plainify }}{{ else }}{{ .Get "alt" }}{{ . | markdownify| plainify }}{{ end }}' data-original="images/{{$old_filename }}" data-dither="{{with $dithered_image }}{{ .Permalink }}{{end}}" loading="lazy"/> </figure>
+</div>
 <div class="figure-controls">
 <figcaption class="caption">
 
