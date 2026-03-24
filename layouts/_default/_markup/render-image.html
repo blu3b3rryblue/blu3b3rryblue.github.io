@@ -9,12 +9,14 @@
 <button class="load-img-btn" aria-label="Load image">Load image</button>
 <img class="uncompressed" data-src="{{ $img.RelPermalink }}" alt="{{ $.Text }}" />
 </div>
+{{ with $.Text }}<p class="img-size-hint">{{ . }}</p>{{ end }} 
 {{- else -}}
 <!-- <img class="uncompressed" src="{{ .Destination | safeURL }}" alt="{{ $.Text }}" /> -->
 <div class="img-load-wrapper">
 <button class="load-img-btn" aria-label="Load image">Load image</button>
 <img class="uncompressed" data-src="{{ .Destination | safeURL }}" alt="{{ $.Text }}" />
 </div>
+{{ with $.Text }}<p class="img-size-hint">{{ . }}</p>{{ end }} 
 {{- end -}}
 
  

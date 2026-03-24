@@ -109,6 +109,12 @@ document.querySelectorAll('.load-img-btn').forEach(btn => {
       wrapper.removeAttribute('data-bg');
     }
 
+    // Remove size
+    const hint = wrapper.nextElementSibling;
+    if (hint && hint.classList.contains('img-size-hint')) {
+      hint.remove();
+    }
+
     this.remove();
   });
 });

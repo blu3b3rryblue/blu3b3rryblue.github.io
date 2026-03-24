@@ -12,6 +12,7 @@
 <!-- <img src="{{with $dithered_image }}{{ .Permalink }}{{end}}" alt='{{ with $alt }}{{ $alt | markdownify| plainify }}{{ else }}{{ .Get "alt" }}{{ . | markdownify| plainify }}{{ end }}' data-original="{{if $thumb}}{{$thumb.Permalink}}{{else}}images/{{$old_filename }}{{end}}" data-dither="{{with $dithered_image }}{{ .RelPermalink }}{{end}}" loading="lazy"/> </figure> -->
 <div class="img-load-wrapper">
 <button class="load-img-btn" aria-label="Load image">Load image</button>
+    {{ with $alt }}<p class="img-size-hint">{{ $alt | markdownify | plainify }}</p>{{ end }}
     <img data-src="{{with $dithered_image }}{{ .Permalink }}{{end}}" alt='{{ with $alt }}{{ $alt | markdownify| plainify }}{{ else }}{{ .Get "alt" }}{{ . | markdownify| plainify }}{{ end }}' data-original="{{if $thumb}}{{$thumb.Permalink}}{{else}}images/{{$old_filename }}{{end}}" data-dither="{{with $dithered_image }}{{ .RelPermalink }}{{end}}" loading="lazy"/>
 </div>
 <div class="figure-controls">
@@ -48,9 +49,10 @@
 {{- $alt  := .Inner -}}
 <div class="article-img">
 <figure data-imgstate="dither">
-<!-- <img src="{{with $dithered_image }}{{ .Permalink }}{{end}}" alt='{{ with $alt }}{{ $alt | markdownify| plainify }}{{ else }}{{ .Get "alt" }}{{ . | markdownify| plainify }}{{ end }}' data-original="images/{{$old_filename }}" data-dither="{{with $dithered_image }}{{ .Permalink }}{{end}}" loading="lazy"/> </figure> -->
+<!-- <img src="{{with $dithered_image }}{{ .Permalink }}{{end}}" alt='{{ with $alt }}{{ $alt | markdownify| plainify }}{{ else }}{{ .Get "alt" }}{{ . | markdownify| plainify }}{{ end }}' data-original="images/{{$old_filename }}" data-dither="{{with $dithered_image }}{{ .Permalink }}{{end}}" loading="lazy"/> </figure>  -->
 <div class="img-load-wrapper">
 <button class="load-img-btn" aria-label="Load image">Load image</button>
+    {{ with $alt }}<p class="img-size-hint">{{ $alt | markdownify | plainify }}</p>{{ end }}
     <img src="{{with $dithered_image }}{{ .Permalink }}{{end}}" alt='{{ with $alt }}{{ $alt | markdownify| plainify }}{{ else }}{{ .Get "alt" }}{{ . | markdownify| plainify }}{{ end }}' data-original="images/{{$old_filename }}" data-dither="{{with $dithered_image }}{{ .Permalink }}{{end}}" loading="lazy"/> </figure>
 </div>
 <div class="figure-controls">

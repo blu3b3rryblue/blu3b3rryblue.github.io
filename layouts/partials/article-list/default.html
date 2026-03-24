@@ -4,6 +4,7 @@
         <!-- <div class="featured-img" style="background-image: url('{{ . }}');"></div>   -->
         <div class="featured-img" data-bg="url('{{ . }}')">
             <button class="load-img-btn" aria-label="Load image">Load image</button>
+            {{ with $.Params.image_size }}<p class="img-size-hint">{{ . }}</p>{{ end }}
         </div>
     {{ end }}
 

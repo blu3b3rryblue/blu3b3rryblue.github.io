@@ -7,6 +7,7 @@
 		</p>
 		<time class="published">{{.Date | time.Format ":date_long"}}</time>
 	</div>
+	</a>
 	<div class="image"> 
 		{{$url := .Permalink}}
 		{{$filename := strings.Replace .Params.featured_image (path.Ext .Params.featured_image) "_dithered.png"}}
@@ -18,5 +19,4 @@
 		</div>
 		{{ end }}
 	</div>
-	</a>
 </div>
