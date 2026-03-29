@@ -1,4 +1,4 @@
-console.log("✅ script.js is running");
+console.log("✅ script.js is running"); 
 
 // Real-time Toronto Weather Forecast (Open-Meteo)
 loadJSON();
@@ -89,6 +89,34 @@ dither_icons.forEach(icon => {
 	    	img.src = dither;
 	    }    
 	});
+});
+
+// Per-image click-to-load
+document.querySelectorAll('.load-img-btn').forEach(btn => {
+  btn.addEventListener('click', function () {
+    const wrapper = this.parentElement;
+
+    // <img data-src>
+    const img = wrapper.querySelector('img[data-src]');
+    if (img) {
+      img.src = img.getAttribute('data-src');
+      img.removeAttribute('data-src');
+    }
+
+    // background-image for featured.html + default.html
+    if (wrapper.dataset.bg) {
+      wrapper.style.backgroundImage = wrapper.dataset.bg;
+      wrapper.removeAttribute('data-bg');
+    }
+
+    // Remove size
+    const hint = wrapper.nextElementSibling;
+    if (hint && hint.classList.contains('img-size-hint')) {
+      hint.remove();
+    }
+
+    this.remove();
+  });
 });
 
 document.addEventListener("DOMContentLoaded", () => {
