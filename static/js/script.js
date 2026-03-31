@@ -35,8 +35,8 @@ async function loadJSON() {
       tomorrow_icon: iconMap[codes[1]] || "cloudy",
       day_after_t_icon: iconMap[codes[2]] || "cloudy"
     };
-
     populateForecast(forecastData);
+
   } catch (error) {
     console.error("Error fetching weather:", error);
   }
@@ -56,6 +56,51 @@ function populateForecast(data) {
   weatherinfo.forEach(el => {
     el.innerHTML = forecast;
   });
+}
+
+// battery data
+const batteryurl = "http://99.239.99.228:8080/api/stats.json"
+// const batteryurl = "/api2/stats.json"
+
+fetchBatteryStats();
+
+async function fetchBatteryStats() {
+  try {
+    const res  = await fetch(batteryurl);
+    const data = await res.json();
+    setupBatteryMeter(data);
+  } catch (err) {
+    console.error("Error fetching battery stats:", err);
+  }
+}
+
+function pushData(arr) {
+    // returns a list of dt/dd pairs from a two-dimensional array
+    let stats = [];
+    for (i = 0; i < arr.length; i++) {
+        stats.push("<dt>" + arr[i][0] + "</dt><dd>" + arr[i][1] + "</dd>");
+    }
+    return stats;
+}
+
+function setupBatteryMeter(data) {
+  console.log("1. setupBatteryMeter called");
+  console.log("2. data received:", data);
+
+  //id=server
+  let general_stats = [
+    ["technology", data.technology],
+    ["health", data.health],
+    ["status", data.status],
+    ["temperature", data.temperature],
+    ["voltage", data.voltage],
+    ["current", data.current],
+    ["percentage", data.percentage],
+    ["uptime", data.uptime]
+  ]
+
+  let dl = document.getElementById('server');
+  dl.innerHTML = pushData(general_stats).join("");
 }
 
 //mobile menu toggle

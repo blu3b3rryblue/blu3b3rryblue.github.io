@@ -1,0 +1,19 @@
+{
+  "present": true,
+  "technology": "Li-ion",
+  "health": "GOOD",
+  "plugged": "UNPLUGGED",
+  "status": "DISCHARGING",
+  "temperature": 21.8,
+  "voltage": 4159,
+  "current": -242500,
+  "current_average": -248900,
+  "percentage": 85,
+  "level": 85,
+  "scale": 100,
+  "charge_counter": 2376600,
+  "datetime": "Mon Mar 30 21:58:20 EDT 2026",
+  "timestamp": 1774922300,
+  "local_time": "21:58 EDT",
+  "uptime": "up 2 days, 8 hours, 11 minutes"
+}
