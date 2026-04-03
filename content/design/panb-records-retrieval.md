@@ -2,6 +2,7 @@
 title: "Provincial Archives of New Brunswick: Records Retrieval Modernization"
 weight: 3
 image: "/images/archivesnewbrunswick-repository.jpg"
+image_size: "archives, 848 KB"
 ---
 
 Identifying and addressing critical issues within the existing system at the PANB and implementing effective solutions to enhance overall functionality and user experience.
@@ -9,15 +10,19 @@ Identifying and addressing critical issues within the existing system at the PAN
 ---
 
 ### **Sector**
+
 Government Archives
 
 ### **Client**
+
 Provincial Archives of New Brunswick, Government of New Brunswick
 
 ### **Tools**
+
 Excel, in-house archiving software, handheld scanner
 
 ### **My Role**
+
 I developed an information systems evaluation plan, analyzed the cartographic records system, identified problems, ideated solutions, and implemented the solutions when feasible.
 
 <br>
@@ -30,7 +35,7 @@ The Provincial Archives of New Brunswick (PANB), established in 1967, is a gover
 
 ## Project Background
 
-The PANB aimed to make inventory of the cartographic records to ensure which records are known, available, and accessible to researchers. 
+The PANB aimed to make inventory of the cartographic records to ensure which records are known, available, and accessible to researchers.
 
 <br>
 
@@ -41,9 +46,9 @@ The PANB aimed to make inventory of the cartographic records to ensure which rec
 In-depth discovery was needed to understand the complex processes and data:
 
 - The Manager of the Special Media Unit and the Manager of the Cartographic Records walked me through the existing process to find a cartographic record.
-- A comparative analysis helped me understand what was working and not working with cartographic record keeping at other government archives. 
+- A comparative analysis helped me understand what was working and not working with cartographic record keeping at other government archives.
 - Mapping the process made me realize how confusing the existing processes are and helped me see how I could streamline the data.
-- I retrieved all of the physical and digital lists I could find that would point to where certain cartographic records lived in the repository, and consulted with the managers. 
+- I retrieved all of the physical and digital lists I could find that would point to where certain cartographic records lived in the repository, and consulted with the managers.
 
 ### **Challenges**
 
@@ -71,7 +76,8 @@ I ideated based off of the findings from the discovery research, consulted with 
 - **Software Updates:** I did not have the authority or expertise to push for software changes, as user experience was not a priority for the institution at that time.
 
 ### **Comprehensive Evaluation Plan**
-After completing a graduate-level course *Information Systems, Services, and Design*, I created a comprehensive evaluation plan for the PANB’s cartographic records system. This plan outlines strategies for improving system usability, efficiency, and overall performance.
+
+After completing a graduate-level course _Information Systems, Services, and Design_, I created a comprehensive evaluation plan for the PANB’s cartographic records system. This plan outlines strategies for improving system usability, efficiency, and overall performance.
 
 ![Evaluation Plan](/images/archives-newbrunswick-evaluationplan.jpg)
 
@@ -82,6 +88,7 @@ After completing a graduate-level course *Information Systems, Services, and Des
 ---
 
 ## Takeaways
+
 This project was the catalyst for me pursuing a Master of Information specializing in User Experience Design because it underscored the importance of deeply understanding users' needs and perspectives when crafting effective systems.
 
 <br>
@@ -90,7 +97,6 @@ This project was the catalyst for me pursuing a Master of Information specializi
 
 <br>
 
-Thank you for reading! 
+Thank you for reading!
 
 [**→ Back to design projects**](/design)
-

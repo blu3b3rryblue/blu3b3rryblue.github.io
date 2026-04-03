@@ -1,4 +1,4 @@
-console.log("✅ script.js is running"); 
+console.log("script.js is running"); 
 
 // Real-time Toronto Weather Forecast (Open-Meteo)
 loadJSON();

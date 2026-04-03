@@ -2,26 +2,30 @@
 title: "Service Ontario: Feedback Component Design"
 weight: 6
 image: "/images/serviceontario.jpg"
+image_size: "service ontario, 303 KB"
 ---
 
 Setting the foundation for a unified, user-centered approach to collecting and using customer feedback at ServiceOntario.
 
 ---
 
-### **Sector**  
+### **Sector**
+
 Government
 
-### **Client**  
+### **Client**
+
 ServiceOntario (SO), Government of Ontario
 
-### **Team**  
+### **Team**
+
 Amrita Takhar (XD Lead), Maya Sarkulova (Senior UX Designer), Nadia Mariyan Smith (XD Co-op)
 
-### **Tools**  
+### **Tools**
+
 Miro, SharePoint
 
-### **My Role**  
-
+### **My Role**
 
 <br>
 
@@ -39,7 +43,7 @@ The Experience Design Team supported multiple SO workstreams to map the feedback
 
 ---
 
-## This page is under construction. 
+## This page is under construction.
 
 <br>
 
@@ -47,6 +51,6 @@ The Experience Design Team supported multiple SO workstreams to map the feedback
 
 <br>
 
-Thank you for reading! 
+Thank you for reading!
 
 [**→ Back to design projects**](/design)

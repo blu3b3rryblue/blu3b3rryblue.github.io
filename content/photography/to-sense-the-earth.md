@@ -2,7 +2,7 @@
 title: "to sense the earth before the end of our world"
 weight: 1
 image: "/images/to-sense-the-earth-v1.jpg"
-image_size: "To sense the earth, 4.1 MB"
+image_size: "to sense the earth, 4.1 MB"
 ---
 
 The collage _to sense the earth before the end of our world_ (2025) assembles “cyborg” sensory prostheses—solar listening devices, plant biofeedback interfaces, haptic webcams, wave-sound amplifiers, and speaking-to-the-land megaphones—that attune human sensibilities to more-than-human rhythms. It imagines how such technologies, born of DIY, artistic, and community practice, might resist extractive logics and reconnect us to the intelligence and sacredness of the living earth and its inhabitants.

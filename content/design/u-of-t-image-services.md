@@ -2,6 +2,7 @@
 title: "University of Toronto: Image Services Guide Design"
 weight: 4
 image: "/images/image-services.jpg"
+image_size: "image services, 1.5 MB"
 ---
 
 Enhancing the clarity and efficiency of image handling, scanning, and editing methods at Image Services at the University of Toronto.
@@ -9,15 +10,19 @@ Enhancing the clarity and efficiency of image handling, scanning, and editing me
 ---
 
 ### **Sector**
+
 Education
 
 ### **Client**
+
 Image Services, The University of Toronto
 
 ### **Tools**
+
 Adobe Photoshop, EPSON Scan, EPSON V850, VueScan, SilverFast, Nikon CoolScan 9000, Miro
 
 ### **My Role**
+
 I was responsible for researching best archival practices, testing equipment and software, and writing user research guides as part of building better and consistent image services.
 
 <br>
@@ -26,17 +31,18 @@ I was responsible for researching best archival practices, testing equipment and
 
 ## Image Services
 
-Image Services maintains the Art History Department's extensive 35mm slide collection and provides services such as digital imaging, image sourcing, software consultations, and audiovisual equipment support for classroom and event use. 
+Image Services maintains the Art History Department's extensive 35mm slide collection and provides services such as digital imaging, image sourcing, software consultations, and audiovisual equipment support for classroom and event use.
 
 ## Project Background
 
-Image Services aimed to create user guides for new and existing Image Technician employees to standardize processes and enhance onboarding.  
+Image Services aimed to create user guides for new and existing Image Technician employees to standardize processes and enhance onboarding.
 
 <br>
 
 ---
 
 ## Stakeholder and User Needs
+
 I conducted informal discussions with employees and the manager.
 
 - **Image Technicians** wanted clear guidance on the various hardware and software tools at their disposal, along with quick, accessible answers while working independently. They also emphasized the need for practices that consistently meet archival standards.
@@ -73,14 +79,14 @@ Finally, I organized and distributed the completed guides through official depar
 The project resulted in two user guides with clear guidance for users engaging in scanning and editing processes:
 
 **EPSON V850 User Guide**  
-A concise manual providing instructions and information on the operation and features of the EPSON V850 slide scanning hardware and software.  
+A concise manual providing instructions and information on the operation and features of the EPSON V850 slide scanning hardware and software.
 
 ![EPSON Guide](/images/image-services-EPSONV850guide.jpg)
 
 <a href="/pdfs/Image Services - EPSON V850 Slide Scanning.pdf" target="_blank" rel="noopener">Image Services - EPSON V850 Slide Scanning</a>
 
 **Adobe Photoshop User Guide**  
-A concise manual providing instructions and insights into the functionality and optimal use of frequently employed tools within the Adobe Photoshop software.  
+A concise manual providing instructions and insights into the functionality and optimal use of frequently employed tools within the Adobe Photoshop software.
 
 ![Adobe Guide](/images/image-services-AdobePhotoshopguide.jpg)
 
@@ -101,6 +107,6 @@ A concise manual providing instructions and insights into the functionality and 
 
 <br>
 
-Thank you for reading! 
+Thank you for reading!
 
 [**→ Back to design projects**](/design)
