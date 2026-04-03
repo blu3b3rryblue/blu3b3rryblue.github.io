@@ -2,6 +2,7 @@
 title: "Photographic Art in the Archives"
 weight: 2
 image: "/images/silhouettes-page1.jpg"
+image_size: "photographic art, 3.3 MB"
 ---
 
 In the fall of 2021, the Provincial Archives of New Brunswick
@@ -29,7 +30,4 @@ have in their holdings?
 
 <a href="/pdfs/Silhouettes-2023-55.pdf" target="_blank" rel="noopener">Read the full publication </a>
 
-Smith, N. M. (2023) Photographic Art in the Archives. *Silhouettes, (55),* 14-18. Provincial Archives of New Brunswick. ISSN 1201-8333.
-
-
-
+Smith, N. M. (2023) Photographic Art in the Archives. _Silhouettes, (55),_ 14-18. Provincial Archives of New Brunswick. ISSN 1201-8333.

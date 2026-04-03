@@ -2,11 +2,12 @@
 title: "existing digitally"
 weight: 10
 image: "/images/existing-digitally.jpg"
+image_size: "existing digitally, 13 MB"
 ---
 
-Existing digitally (2020), comprised of image and video collages, was created in the context of the Cyberspace and Image Economy class offered at Concordia University. 
+Existing digitally (2020), comprised of image and video collages, was created in the context of the Cyberspace and Image Economy class offered at Concordia University.
 
-The series looks at our past online identities that are often fragmented and exist without context to bring up issues (dis)connect with our present existing selves. It attempts to bridge the gap between past and present temporalities and virtual and physical realities through the re-enactment and embodiment of former internet identities. The series focusses in on the generation that spent a significant amount of their childhoods online at the same time as the birth of Myspace, Facebook and other social media platforms. 
+The series looks at our past online identities that are often fragmented and exist without context to bring up issues (dis)connect with our present existing selves. It attempts to bridge the gap between past and present temporalities and virtual and physical realities through the re-enactment and embodiment of former internet identities. The series focusses in on the generation that spent a significant amount of their childhoods online at the same time as the birth of Myspace, Facebook and other social media platforms.
 
 Throughout my time online as a child I would explore different presentations of myself online. From changing middle and last names to names based off of celebrities or popular fictional characters such as “Cullen,” “Depp,” “Bilodeau,” “Scott,” etc., I was able to delve into a new type of mythical world. Jenny Jones was my “stage name” where I would brand my first ever prototype “memes” in which my fascination with exploring the combination of image and text began.
 
