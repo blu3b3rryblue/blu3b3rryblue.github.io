@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>power | nadia mariyan smith</title>
+  <meta
+    name="description"
+    content="Live and contextual information about the solar power supply, demand, and storage behind this website."
+  />
+
+  <link rel="icon" href="static/icons/sun.svg" type="image/svg+xml">
+
+  <style>
+    :root {
+      --bg: #FFCA85;
+      --title: #603600;
+      --text: #111111;
+      --accent: #198F51;
+      --max-width: 58rem;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 12px;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: var(--bg);
+      color: var(--text);
+      font-family: sans-serif;
+      line-height: 1.2;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    main {
+      flex: 1;
+      max-width: var(--max-width);
+      padding: 1rem 1rem 4rem;
+    }
+
+    .site-title {
+      display: inline-block;
+      margin: 0 0 1.25rem;
+      font-size: clamp(3rem, 8vw, 5.5rem);
+      line-height: 0.95;
+      color: var(--title);
+      text-decoration: none;
+      font-weight: 400;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.08em;
+    }
+
+    a:hover,
+    a:focus-visible {
+      text-decoration-thickness: 0.12em;
+    }
+
+    .page-title {
+      margin: 0 0 1.5rem;
+      font-size: clamp(1.7rem, 3.8vw, 2.25rem);
+      line-height: 1.1;
+      color: var(--accent);
+      font-weight: 400;
+    }
+
+    p,
+    li,
+    dd,
+    dt {
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+
+    p {
+      margin: 0 0 1.2rem;
+      max-width: 42rem;
+    }
+
+    h2 {
+      margin: 2.5rem 0 1rem;
+      font-size: 1.7rem;
+      line-height: 1.1;
+      font-weight: 400;
+      color: var(--accent);
+    }
+
+    .summary {
+      margin-bottom: 2rem;
+      max-width: 42rem;
+    }
+
+    .forecast,
+    #server {
+      margin: 1rem 0 1.5rem;
+      padding: 1rem;
+      border: 1px solid rgba(17, 17, 17, 0.15);
+      background: rgba(255, 255, 255, 0.18);
+      max-width: 42rem;
+    }
+
+    #server {
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      gap: 0.5rem 1rem;
+    }
+
+    #server dt {
+      font-weight: 400;
+      color: var(--accent);
+      margin: 0;
+    }
+
+    #server dd {
+      margin: 0;
+    }
+
+    .note {
+      font-size: 1.1rem;
+      line-height: 1.4;
+      max-width: 42rem;
+    }
+
+    figure {
+      margin: 2rem 0 0;
+      max-width: 42rem;
+    }
+
+    figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 0.75rem;
+      font-size: 1.1rem;
+      line-height: 1.4;
+    }
+
+    footer {
+      margin-top: 0;
+      padding: 1rem 1rem 1.5rem;
+      border-top: 1px solid rgba(17, 17, 17, 0.18);
+    }
+
+    .micro {
+      font-size: 1.25rem;
+      line-height: 1.4;
+      max-width: none;
+      margin: 0;
+    }
+
+    @media (min-width: 760px) {
+      main {
+        padding: 1rem 1.2rem 5rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <a class="site-title" href="index.html">nadia mariyan smith</a>
+
+    <h1 class="page-title">power</h1>
+
+    <p class="summary">
+      We are working on having this website run on a solar-powered server located in Toronto,
+      which will go off-line during longer periods of bad weather. This page shows live data
+      relating to power supply, power demand, and energy storage.
+    </p>
+
+    <h2>supply</h2>
+
+    <p>This is a forecast for the coming days, updated daily:</p>
+
+    <div class="forecast">
+      forecast data will go here
+    </div>
+
+    <p class="note">
+      This weather forecast is powered by 
+      <a href="https://brightsky.dev/" target="_blank" rel="noopener noreferrer">BrightSky</a>.
+    </p>
+
+    <h2>demand</h2>
+
+    <p>These are live power statistics of the solar-powered server:</p>
+
+    <dl id="server">
+      <dt>status</dt>
+      <dd>waiting for live data</dd>
+
+      <dt>load average</dt>
+      <dd>—</dd>
+
+      <dt>power draw</dt>
+      <dd>—</dd>
+
+      <dt>last updated</dt>
+      <dd>—</dd>
+    </dl>
+
+    <p class="note">(* load average per 10 minutes)</p>
+
+    <h2>battery meter</h2>
+
+    <p>
+      The background at the top of every page is a battery meter, designed to display the
+      relationship of the energy powering the website and the visitor traffic consuming it.
+    </p>
+
+    <h2>Inspiration</h2>
+
+    <p>
+      We are inspired by
+      <a href="https://solar.lowtechmagazine.com/power/" target="_blank" rel="noopener noreferrer">LOW←TECH MAGAZINE</a>,
+      <a href="https://compost.party" target="_blank" rel="noopener noreferrer">compost.party</a>,
+      <a href="https://permacomputingasapracticefordigitalgraphicdesign.com/" target="_blank" rel="noopener noreferrer">Permacomputing as practice for digital Graphic Design</a>,
+      and
+      <a href="https://solarprotocol.net/" target="_blank" rel="noopener noreferrer">Solar Protocol</a>.
+    </p>
+
+    <figure>
+      <img src="static/images/dither_it_solar_setup.png" alt="Image showing how the website depends on local weather and energy conditions." />
+      <figcaption>
+        The accessibility of this website depends on the weather in Toronto, Canada.
+      </figcaption>
+    </figure>
+  </main>
+
+  <footer>
+    <p class="micro">
+      this website was built based on principles of
+      <a href="https://permacomputing.net/principles/" target="_blank" rel="noopener noreferrer">permacomputing</a>
+      and
+      <a href="https://www.thestudioattheedgeoftheworld.com/uploads/4/7/4/0/47403357/04madinatlostanovadecolonizingdesign.pdf" target="_blank" rel="noopener noreferrer">relational aesthesis</a>
+      to reorient our relationship to digital technology toward more
+      <a href="https://en.wikipedia.org/wiki/Tools_for_Conviviality" target="_blank" rel="noopener noreferrer">convivial</a>
+      and
+      <a href="https://www.bloomsbury.com/uk/relationality-9781350225992/" target="_blank" rel="noopener noreferrer">relational</a>
+      ways of being.
+    </p>
+  </footer>
+</body>
+</html>

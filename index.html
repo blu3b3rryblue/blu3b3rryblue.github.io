@@ -7,6 +7,8 @@
 <head>
   <!-- metadata (not visible on the page itself) -->
 
+  <link rel="icon" href="static/icons/sun.svg" type="image/svg+xml">
+
   <meta charset="UTF-8" />
   <!-- allows special characters, emojis, etc. -->
 
@@ -20,166 +22,163 @@
   <!-- used by search engines -->
 
   <style>
-    /* =========================
-       CSS (styling)
-       ========================= */
+  /* =========================
+     CSS (styling)
+     ========================= */
 
-    :root {
-      /* global variables you can reuse */
-      --bg: #FFCA85;         /* background color */
-      --title: #603600;       /* main title color */
-      --text: #111111;       /* main text color */
-      --accent: #198F51;     /* link + title color */
-      --max-width: 58rem;    /* limits how wide content can be */
-    }
+  :root {
+    /* global variables you can reuse */
+    --bg: #FFCA85;         /* background color */
+    --title: #603600;      /* main title color */
+    --text: #111111;       /* main text color */
+    --accent: #198F51;     /* link color */
+    --max-width: 58rem;    /* limits how wide content can be */
+  }
 
-    * {
-      /* applies to ALL elements */
-      box-sizing: border-box;
-      /* makes padding behave more predictably */
-    }
+  * {
+    /* applies to ALL elements */
+    box-sizing: border-box;
+    /* makes padding behave more predictably */
+  }
 
-    html {
-      font-size: 12px;
-      scroll-behavior: smooth;
-      /* smooth scrolling when clicking links */
-    }
+  html {
+    font-size: 12px;
+    scroll-behavior: smooth;
+    /* smooth scrolling when clicking links */
+  }
 
-    body {
-      margin: 0;
-      /* removes default browser spacing */
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
-      background: var(--bg);
-      color: var(--text);
+    /* removes default browser spacing */
+    background: var(--bg);
+    color: var(--text);
 
-      font-family: sans-serif;
-      /* uses system default sans-serif font */
+    font-family: sans-serif;
+    /* uses system default sans-serif font */
 
-      line-height: 1.2;
+    line-height: 1.2;
 
-      -webkit-font-smoothing: antialiased;
-      text-rendering: optimizeLegibility;
-      /* improves text rendering */
-    }
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    /* improves text rendering */
+  }
 
+  main {
+    /* container for all visible content */
+    flex: 1;
+    max-width: var(--max-width);
+    /* prevents text from stretching too wide */
+
+    padding: 1rem 1rem 4rem;
+    /* spacing inside the container */
+  }
+
+  .site-title {
+    /* styling for your name/title */
+    display: inline-block;
+    margin: 0 0 1.25rem;
+
+    font-size: clamp(3rem, 8vw, 5.5rem);
+    /* responsive font size:
+       grows with screen width but stays within limits */
+
+    line-height: 0.95;
+    color: var(--title);
+    text-decoration: none;
+    /* removes underline (since it's a link) */
+    font-weight: 400;
+  }
+
+  .intro {
+    margin-bottom: 2rem;
+    /* space below intro section */
+  }
+
+  .intro p {
+    margin: 0 0 1rem;
+
+    font-size: clamp(1.65rem, 4.3vw, 2.15rem);
+    /* large responsive paragraph text */
+
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    /* slightly tighter spacing for aesthetic */
+  }
+
+  .intro a {
+    text-decoration: none;
+    color: var(--text);
+  }
+
+  a {
+    /* all links */
+    color: var(--accent);
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.08em;
+    /* makes underline look nicer */
+  }
+
+  a:hover,
+  a:focus-visible {
+    /* when hovering or tabbing */
+    text-decoration-thickness: 0.12em;
+    /* thicker underline for feedback */
+  }
+
+  .link-list {
+    /* container for nav links */
+    list-style: none;
+    /* removes bullet points */
+
+    padding: 0;
+    margin: 2rem 0 0;
+  }
+
+  .link-list li {
+    margin: 0 0 0.7rem;
+
+    font-size: clamp(1.7rem, 3.8vw, 2.25rem);
+    /* large vertical links */
+
+    line-height: 1.1;
+  }
+
+  .link-list a {
+    text-decoration: underline;
+    /* ensures nav links are clearly links */
+  }
+
+  footer {
+    margin-top: 0;
+    padding: 1rem 1rem 1.5rem;
+    border-top: 1px solid rgba(17, 17, 17, 0.18);
+  }
+
+  .micro {
+    font-size: 1.25rem;
+    line-height: 1.4;
+  max-width: none;
+  margin: 0;
+  }
+
+  @media (min-width: 760px) {
+    /* styles that apply on larger screens */
     main {
-      /* container for all visible content */
-      max-width: var(--max-width);
-      /* prevents text from stretching too wide */
-
-      padding: 1rem 1rem 4rem;
-      /* spacing inside the container */
+      padding: 1rem 1.2rem 5rem;
     }
+  }
 
-    .site-title {
-      /* styling for your name/title */
-
-      display: inline-block;
-      margin: 0 0 1.25rem;
-
-      font-size: clamp(3rem, 8vw, 5.5rem);
-      /* responsive font size:
-         grows with screen width but stays within limits */
-
-      line-height: 0.95;
-
-      color: var(--title);
-
-      text-decoration: none;
-      /* removes underline (since it's a link) */
-
-      font-weight: 400;
+  @media (prefers-reduced-motion: reduce) {
+    /* accessibility: disables animations if user prefers */
+    html {
+      scroll-behavior: auto;
     }
-
-    .intro {
-      margin-bottom: 2rem;
-      /* space below intro section */
-    }
-
-    .intro p {
-      margin: 0 0 1rem;
-
-      font-size: clamp(1.65rem, 4.3vw, 2.15rem);
-      /* large responsive paragraph text */
-
-      line-height: 1.14;
-      letter-spacing: -0.02em;
-      /* slightly tighter spacing for aesthetic */
-    }
-
-    .intro a {
-  text-decoration: none;
-    }
-    
-    a {
-      /* all links */
-
-      color: var(--text);
-
-      text-decoration-thickness: 0.08em;
-      text-underline-offset: 0.08em;
-      /* makes underline look nicer */
-    }
-
-    a:hover,
-    a:focus-visible {
-      /* when hovering or tabbing */
-
-      text-decoration-thickness: 0.12em;
-      /* thicker underline for feedback */
-    }
-
-    .link-list {
-      /* container for nav links */
-
-      list-style: none;
-      /* removes bullet points */
-
-      padding: 0;
-      margin: 2rem 0 0;
-    }
-
-    .link-list li {
-      margin: 0 0 0.7rem;
-
-      font-size: clamp(1.7rem, 3.8vw, 2.25rem);
-      /* large vertical links */
-
-      line-height: 1.1;
-    }
-
-    .link-list a {
-      text-decoration: underline;
-      /* ensures nav links are clearly links */
-    }
-
-    footer {
-      margin-top: 3rem;
-      padding-top: 1rem;
-
-      border-top: 1px solid rgba(17, 17, 17, 0.18);
-      /* subtle divider line */
-
-      font-size: 1rem;
-      line-height: 1.4;
-    }
-
-    @media (min-width: 760px) {
-      /* styles that apply on larger screens */
-
-      main {
-        padding: 1rem 1.2rem 5rem;
-      }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      /* accessibility: disables animations if user prefers */
-
-      html {
-        scroll-behavior: auto;
-      }
-    }
-  </style>
+  }
+</style>
 </head>
 
 <body>
@@ -214,7 +213,20 @@
 
       </ul>
     </nav>
-
   </main>
+<footer>
+    <p class="micro">
+      this website was built based on principles of 
+      <a href="https://permacomputing.net/principles/" target="_blank" rel="noopener noreferrer">permacomputing</a> 
+      and 
+      <a href="https://www.thestudioattheedgeoftheworld.com/uploads/4/7/4/0/47403357/04madinatlostanovadecolonizingdesign.pdf" target="_blank" rel="noopener noreferrer">relational aesthesis</a> 
+      to reorient our relationship to digital technology toward more 
+      <a href="https://en.wikipedia.org/wiki/Tools_for_Conviviality" target="_blank" rel="noopener noreferrer">convivial</a> 
+      and 
+      <a href="https://www.bloomsbury.com/uk/relationality-9781350225992/" target="_blank" rel="noopener noreferrer">relational</a> 
+      ways of being.
+    </p>
+  </footer>
+
 </body>
 </html>

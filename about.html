@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>about | nadia mariyan smith</title>
+  <meta name="description" content="About Nadia Mariyan Smith" />
+
+  <link rel="icon" href="static/icons/sun.svg" type="image/svg+xml">
+
+  <style>
+    /* =========================
+       CSS (styling)
+       ========================= */
+
+    :root {
+      --bg: #FFCA85;         /* background color */
+      --title: #603600;      /* main title color */
+      --text: #111111;       /* main text color */
+      --accent: #198F51;     /* link color */
+      --max-width: 58rem;    /* limits how wide content can be */
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 12px;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+
+      background: var(--bg);
+      color: var(--text);
+
+      font-family: sans-serif;
+      line-height: 1.2;
+
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    main {
+      flex: 1;
+      max-width: var(--max-width);
+      padding: 1rem 1rem 4rem;
+    }
+
+    .site-title {
+      display: inline-block;
+      margin: 0 0 1.25rem;
+
+      font-size: clamp(3rem, 8vw, 5.5rem);
+      line-height: 0.95;
+
+      color: var(--title);
+      text-decoration: none;
+      font-weight: 400;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.08em;
+    }
+
+    a:hover,
+    a:focus-visible {
+      text-decoration-thickness: 0.12em;
+    }
+
+    .page-title {
+      margin: 0 0 1.5rem;
+      font-size: clamp(1.7rem, 3.8vw, 2.25rem);
+      line-height: 1.1;
+      color: var(--accent);
+      font-weight: 400;
+    }
+
+    p {
+      margin: 0 0 1.2rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+      max-width: 42rem;
+    }
+
+    img.portrait {
+      display: block;
+      width: 24rem;
+      max-width: 100%;
+      height: auto;
+      margin: 0 0 1.5rem;
+    }
+
+    .doc-links {
+      margin: 1.5rem 0 2rem;
+    font-size: 1.25rem;
+    }
+
+    .doc-links a {
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+
+    blockquote {
+      margin: 2.5rem 0 0;
+      padding-left: 1rem;
+      border-left: 2px solid rgba(17, 17, 17, 0.25);
+      max-width: 42rem;
+    }
+
+    blockquote p {
+      margin-bottom: 1rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+
+    cite {
+      font-style: normal;
+    }
+
+    footer {
+      margin-top: 0;
+      padding: 1rem 1rem 1.5rem;
+      border-top: 1px solid rgba(17, 17, 17, 0.18);
+    }
+
+    .micro {
+      font-size: 1.25rem;
+      line-height: 1.4;
+      max-width: none;
+      margin: 0;
+    }
+
+    @media (min-width: 760px) {
+      main {
+        padding: 1rem 1.2rem 5rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <a class="site-title" href="index.html">nadia mariyan smith</a>
+
+    <h1 class="page-title">about</h1>
+
+    <img class="portrait" src="/static/images/dither_it_nadia-profile.png" alt="Portrait of Nadia" />
+
+    <p>
+      I’m a researcher, designer, and community worker interested in meaning-making approaches that center
+      <a href="https://decolonialfutures.net/relational-experiments-momentum-vs-vitality/" target="_blank" rel="noopener noreferrer">relational entanglement</a>,
+     anti-coloniality, <a href="https://en.wikipedia.org/wiki/Tools_for_Conviviality" target="_blank" rel="noopener noreferrer">conviviality</a>,
+      <a href="https://solar.lowtechmagazine.com/low-tech-solutions/" target="_blank" rel="noopener noreferrer">low tech</a>,
+      <a href="https://en.wikipedia.org/wiki/Mutual_aid" target="_blank" rel="noopener noreferrer">mutual aid</a>,
+      and
+      <a href="https://static1.squarespace.com/static/59bc0e610abd04bd1e067ccc/t/5cb6db356e9a7f14e5322a62/1555487546989/Hickel+-+Degrowth%2C+A+Theory+of+Radical+Abundance.pdf" target="_blank" rel="noopener noreferrer">degrowth</a>, among other ideas,
+      as ways to sustain and care for the collective wellness of all beings.
+    </p>
+
+    <p>I also make photographs.</p>
+
+    <div class="doc-links">
+      <a href="static/pdfs/ProfessionalResume-NadiaMariyanSmith.pdf" target="_blank" rel="noopener noreferrer">Professional Resume</a><br>
+      <a href="static/pdfs/ArtistCV-NadiaMariyanSmith.pdf" target="_blank" rel="noopener noreferrer">Artist CV</a>
+    </div>
+
+    <blockquote>
+      <p>
+        <em>“We are committed to the idea that study is what you do with other people. It’s talking and walking around with other people, working, dancing, suffering, some irreducible convergence of all three, held under the name of speculative practice. The point of calling it ‘study’ is to mark that the incessant and irreversible intellectuality of these activities is already present.”</em>
+      </p>
+      <p>
+        <cite>
+          — Fred Moten &amp; Stefano Harney,
+          <a href="https://www.minorcompositions.info/wp-content/uploads/2013/04/undercommons-web.pdf" target="_blank" rel="noopener noreferrer"><em>The Undercommons</em> (2013)</a>
+        </cite>
+      </p>
+    </blockquote>
+  </main>
+
+  <footer>
+    <p class="micro">
+      this website was built based on principles of
+      <a href="https://permacomputing.net/principles/" target="_blank" rel="noopener noreferrer">permacomputing</a>
+      and
+      <a href="https://www.thestudioattheedgeoftheworld.com/uploads/4/7/4/0/47403357/04madinatlostanovadecolonizingdesign.pdf" target="_blank" rel="noopener noreferrer">relational aesthesis</a>
+      to reorient our relationship to digital technology toward more
+      <a href="https://en.wikipedia.org/wiki/Tools_for_Conviviality" target="_blank" rel="noopener noreferrer">convivial</a>
+      and
+      <a href="https://www.bloomsbury.com/uk/relationality-9781350225992/" target="_blank" rel="noopener noreferrer">relational</a>
+      ways of being.
+    </p>
+  </footer>
+</body>
+</html>
