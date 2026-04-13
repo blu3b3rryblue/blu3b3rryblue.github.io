@@ -1,1 +1,220 @@
-<meta http-equiv="refresh" content="0; url=https://blu3b3rryblue.github.io/layouts/index.html">
+<!DOCTYPE html>
+<!-- tells the browser this is modern HTML (HTML5) -->
+
+<html lang="en">
+<!-- root element of the page, language set to English -->
+
+<head>
+  <!-- metadata (not visible on the page itself) -->
+
+  <meta charset="UTF-8" />
+  <!-- allows special characters, emojis, etc. -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- makes the layout responsive on mobile -->
+
+  <title>nadia mariyan smith</title>
+  <!-- text shown in browser tab -->
+
+  <meta name="description" content="personal website of nadia mariyan smith" />
+  <!-- used by search engines -->
+
+  <style>
+    /* =========================
+       CSS (styling)
+       ========================= */
+
+    :root {
+      /* global variables you can reuse */
+      --bg: #FFCA85;         /* background color */
+      --title: #603600;       /* main title color */
+      --text: #111111;       /* main text color */
+      --accent: #198F51;     /* link + title color */
+      --max-width: 58rem;    /* limits how wide content can be */
+    }
+
+    * {
+      /* applies to ALL elements */
+      box-sizing: border-box;
+      /* makes padding behave more predictably */
+    }
+
+    html {
+      font-size: 12px;
+      scroll-behavior: smooth;
+      /* smooth scrolling when clicking links */
+    }
+
+    body {
+      margin: 0;
+      /* removes default browser spacing */
+
+      background: var(--bg);
+      color: var(--text);
+
+      font-family: sans-serif;
+      /* uses system default sans-serif font */
+
+      line-height: 1.2;
+
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      /* improves text rendering */
+    }
+
+    main {
+      /* container for all visible content */
+      max-width: var(--max-width);
+      /* prevents text from stretching too wide */
+
+      padding: 1rem 1rem 4rem;
+      /* spacing inside the container */
+    }
+
+    .site-title {
+      /* styling for your name/title */
+
+      display: inline-block;
+      margin: 0 0 1.25rem;
+
+      font-size: clamp(3rem, 8vw, 5.5rem);
+      /* responsive font size:
+         grows with screen width but stays within limits */
+
+      line-height: 0.95;
+
+      color: var(--title);
+
+      text-decoration: none;
+      /* removes underline (since it's a link) */
+
+      font-weight: 400;
+    }
+
+    .intro {
+      margin-bottom: 2rem;
+      /* space below intro section */
+    }
+
+    .intro p {
+      margin: 0 0 1rem;
+
+      font-size: clamp(1.65rem, 4.3vw, 2.15rem);
+      /* large responsive paragraph text */
+
+      line-height: 1.14;
+      letter-spacing: -0.02em;
+      /* slightly tighter spacing for aesthetic */
+    }
+
+    .intro a {
+  text-decoration: none;
+    }
+    
+    a {
+      /* all links */
+
+      color: var(--text);
+
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.08em;
+      /* makes underline look nicer */
+    }
+
+    a:hover,
+    a:focus-visible {
+      /* when hovering or tabbing */
+
+      text-decoration-thickness: 0.12em;
+      /* thicker underline for feedback */
+    }
+
+    .link-list {
+      /* container for nav links */
+
+      list-style: none;
+      /* removes bullet points */
+
+      padding: 0;
+      margin: 2rem 0 0;
+    }
+
+    .link-list li {
+      margin: 0 0 0.7rem;
+
+      font-size: clamp(1.7rem, 3.8vw, 2.25rem);
+      /* large vertical links */
+
+      line-height: 1.1;
+    }
+
+    .link-list a {
+      text-decoration: underline;
+      /* ensures nav links are clearly links */
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+
+      border-top: 1px solid rgba(17, 17, 17, 0.18);
+      /* subtle divider line */
+
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+
+    @media (min-width: 760px) {
+      /* styles that apply on larger screens */
+
+      main {
+        padding: 1rem 1.2rem 5rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      /* accessibility: disables animations if user prefers */
+
+      html {
+        scroll-behavior: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- everything visible goes inside body -->
+
+  <main>
+    <!-- main content container -->
+
+    <a class="site-title" href="index.html">
+      nadia mariyan smith
+    </a>
+    <!-- clickable title (links back to homepage) -->
+
+    <section class="intro" aria-labelledby="intro-text">
+      <!-- intro section with accessibility label -->
+
+      <p id="intro-text">
+        <a href="https://solar.nadiamariyan.ca/power">
+          this is a solar-powered website, which means it sometimes goes offline
+        </a>
+      </p>
+    </section>
+
+    <nav aria-label="Main navigation">
+      <!-- navigation section (for screen readers too) -->
+
+      <ul class="link-list">
+        <!-- unordered list of links -->
+
+        <li><a href="https://solar.nadiamariyan.ca/about">about</a></li>
+        <li><a href="https://solar.nadiamariyan.ca/projects">projects</a></li>
+
+      </ul>
+    </nav>
+
+  </main>
+</body>
+</html>
